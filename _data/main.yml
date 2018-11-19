@@ -82,21 +82,17 @@ howtodonate:
   methods:
     -
       title: Monetary gifts
-      icon: M
+      icon: hand-holding-usd
       text: |
         We graciously accept both one-time and regular donations. For maximum
-        convenience, we invite you to use our
-        **Canada&nbsp;Helps**&nbsp;page&#x3A;
-
-        > [Donate Now](javascript:void(0))
+        convenience, we invite you to donate using our
+        [Canada&nbsp;Helps](javascript:void(0))&nbsp;page.
 
         If you prefer to arrange periodic (e.g., monthly) donations via
-        automatic bank deposits, please visit your bank. Please specify our
-        full legal&nbsp;name&#x3A; **THE&nbsp;CATHEDRAL&nbsp;OF
-        SAINT&nbsp;PETER&#x2013;IN&#x2013;CHAINS PERPETUAL&nbsp;FUND**
+        automatic bank deposits, please visit your bank.
     -
       title: Bequests
-      icon: B
+      icon: dove
       text: &loremipsum |
         Lorem ipsum dolor *sit amet*, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
@@ -109,11 +105,11 @@ howtodonate:
         mollit anim id est laborum.
     -
       title: Life insurance and annuities
-      icon: L
+      icon: handshake
       text: *loremipsum
     -
       title: Property
-      icon: P
+      icon: home
       text: *loremipsum
 
 donorbenefits:
@@ -121,7 +117,7 @@ donorbenefits:
   benefits:
     -
       title: Tax receipts
-      icon: T
+      icon: file-invoice
       text: |
         All donations are tax-deductible.
 
@@ -133,7 +129,7 @@ donorbenefits:
         **127591725&nbsp;RR&nbsp;0002**.
     -
       title: In perpetuity
-      icon: P
+      icon: seedling
       text: |
         Knowledge that your donation is a **lasting contribution**.
 
@@ -145,7 +141,7 @@ donorbenefits:
         Catholic&nbsp;heritage.
     -
       title: Memorial Book
-      icon: B
+      icon: book-open
       text: |
         Names of donors are inscribed in the Perpetual&nbsp;Fund
         Memorial&nbsp;Book.
@@ -154,7 +150,7 @@ donorbenefits:
         tempor incididunt ut labore et dolore magna aliqua.
     -
       title: Mass offerings
-      icon: O
+      icon: church
       text: |
         Living and deceased donors share in the spiritual benefits of masses
         offered for them and their intentions each month.
