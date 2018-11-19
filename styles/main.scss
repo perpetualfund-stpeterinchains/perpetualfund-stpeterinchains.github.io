@@ -1,0 +1,325 @@
+---
+---
+
+/***
+ ***   Derek Coulter <sdohtem [at] gmail.com>
+ ***   November 2018
+ ***/
+
+
+
+/*** COMMON ***/
+
+
+/* MEDIA QUERY BREAKPOINTS */
+
+/* Pure.css DEFAULTS */
+/*@media screen and (min-width: 35.5rem) {}*/
+/*@media screen and (min-width: 48rem) {}*/
+/*@media screen and (min-width: 64rem) {}*/
+/*@media screen and (min-width: 80rem) {}*/
+
+
+/* BASE STYLES */
+
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: Lato, sans-serif; }
+
+div.markdown a { text-decoration: none; }
+div.markdown em { font-style: italic; }
+div.markdown strong { font-weight: 400; }
+
+
+
+/*** LAYOUT: MAIN ***/
+
+
+/* BODY */
+
+body { background-color: #f3f3f4; color: #333; }
+
+
+{% if jekyll.environment == "development" %}
+
+/* DEVICE WIDTH INDICATOR */
+
+#width-indicator {
+  position: fixed; width: 30px; height: 10px; top: 0; right: 0;
+  background-color: yellow;
+}
+
+@media screen and (min-width: 35.5rem) { #width-indicator { background-color: red; } }
+@media screen and (min-width: 48rem) { #width-indicator { background-color: green; } }
+@media screen and (min-width: 64rem) { #width-indicator { background-color: blue; } }
+@media screen and (min-width: 80rem) { #width-indicator { background-color: magenta; } }
+
+{% endif %}
+
+
+/* COLOPHON */
+
+#colophon {
+  padding: 0.5rem 5%;
+  background-color: black;
+  font-weight: 300;
+  color: #999;
+  text-align: center;
+}
+
+#colophon > p { margin: 0; }
+#colophon-copyright { font-size: 0.5rem; }
+#colophon-license { font-size: 0.5rem; }
+#colophon-license > a { text-decoration: none; color: #ccc; }
+#colophon-license > a:hover { color: white; }
+#colophon-attribution { font-size: 0.5rem; }
+#colophon-attribution-cross { color: white; }
+#colophon-attribution-heart { color: red; }
+#colophon-attribution > a { font-weight: 400; text-decoration: none; color: #ccc; }
+#colophon-attribution > a:hover { color: white;}
+
+
+
+/*** PAGE: INDEX ***/
+
+
+/* HERO */
+
+#hero {
+  background-color: #222; color: white;
+  background-image: radial-gradient(ellipse at center top 80%, #666, black);
+  font-weight: 300; text-align: center;
+}
+
+#hero > h1 {
+  margin: 0; padding-top: 2rem;
+  font-size: 1.5rem; font-weight: 300;
+  color: #ccc;
+}
+
+#hero > h2 {
+  position: relative; top: -0.5rem;
+  margin: 0;
+  font-size: 3rem; font-weight: 400; letter-spacing: -0.1rem;
+}
+
+#hero > h3 {
+  margin: 0; padding-top: 1rem;
+  font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
+}
+
+#hero > h4 {
+  margin: 0; padding: 0.5rem 10% 0 10%;
+  font-size: 1.25rem; font-weight: 300;
+  color: #ccc;
+}
+
+#slideshow {
+  position: relative; top: -1rem;
+  margin: 0 auto; width: 80%;
+}
+
+div.slideshow-slide { display: none; }
+
+div.slideshow-slide > img {
+  position: relative; top: 4rem;
+  display: block; width: 100%;
+  border-radius: 9px; box-shadow: -2px 2px 7px #222;
+}
+
+div.slideshow-effect { animation-name: slideshow-effect; animation-duration: 1s; }
+@keyframes slideshow-effect { from {opacity: 0.5} to {opacity: 1} }
+
+@media screen and (min-width: 64rem) {
+  #hero > h4 { padding: 0.5rem 15% 0 15%; }
+  #slideshow { width: 100%; max-width: 800px; }
+}
+
+
+/* WHAT IS THE PERPETUAL FUND? */
+
+#whatis { padding: 6rem 10% 0 10%; }
+
+#whatis > h1 {
+  font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+#whatis > p {
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+}
+
+#whatis > p:first-of-type { font-size: 1.25rem; line-height: 2rem; }
+#whatis > p:last-of-type { font-size: 1.15rem; line-height: 1.75rem; }
+
+#whatis-links { margin-top: 2rem; text-align: center; line-height: 2rem; }
+
+#whatis-links > span { display: block; }
+
+#whatis-links > span > a {
+  font-size: 1.15rem; font-weight: 300;
+  text-decoration: none;
+  color: #288;
+}
+
+#whatis-links > span > a:hover { color: #033; }
+
+#whatis-links > span:last-of-type { margin-top: 0.5rem; }
+
+#whatis-links > span:last-of-type > a {
+  padding: 0.25rem 0.5rem;
+  font-weight: 300;
+  border: 1px solid #288; border-radius: 7px;
+  color: #288;
+}
+
+#whatis-links > span:last-of-type > a:hover {
+  background-color: #288; color: white;
+}
+
+@media screen and (min-width: 48rem) {
+  #whatis-links > span {
+    display: inline; white-space: nowrap;
+    margin-right: 1rem;
+  }
+
+  #whatis-links > span:last-of-type { margin: 0; }
+}
+
+@media screen and (min-width: 64rem) {
+  #whatis { padding: 6rem 20% 0 20%; }
+}
+
+
+/* HOW DOES IT WORK? */
+
+#howitworks { padding: 5rem 10% 0 10%; }
+
+#howitworks > h1 {
+  margin: 0 0 3rem 0;
+  font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+div.howitworks-box {
+  position: relative; box-sizing: border-box;
+  margin-bottom: 2.5rem; padding: 2rem 5%;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+div.howitworks-box:last-child { margin-bottom: 0; }
+
+h1.howitworks-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.75rem; font-weight: 400; text-align: center;
+}
+
+div.howitworks-text { font-weight: 300; }
+div.howitworks-text > p { margin: 0 0 0.5rem 0; font-size: 1rem; line-height: 1.5rem; }
+div.howitworks-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
+
+div.howitworks-icon {
+  position: absolute; top: -1rem; left: -1rem;
+  width: 4rem; height: 4rem; line-height: 4rem;
+  border-radius: 50%; box-shadow: -1px 1px 5px #999;
+  background-color: #288; color: white;
+  font-size: 1.75rem; font-weight: 300; text-align: center;
+}
+
+div.howitworks-icon > span { vertical-align: baseline; }
+
+@media screen and (min-width: 64rem) {
+  div.howitworks-box { padding: 2rem 10%; }
+}
+
+
+/* HOW CAN YOU DONATE? */
+
+#howtodonate {
+  padding: 5rem 10%; margin-top: 6rem;
+  background-color: #288; color: white;
+}
+
+#howtodonate > h1 {
+  margin: 0 0 2rem 0;
+  font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+#howtodonate-grid { margin-top: 2rem; }
+
+div.howtodonate-item { box-sizing: border-box; }
+
+div.howtodonate-icon { text-align: center; }
+
+div.howtodonate-icon > span {
+  font-weight: 300; font-size: 4rem;
+  color: #ec6;
+}
+
+h1.howtodonate-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem; font-weight: 400; text-align: center;
+}
+
+div.howtodonate-text { font-weight: 300; color: rgba(255,255,255,0.75); }
+div.howtodonate-text > p { margin: 0 0 0.5rem 0; font-size: 1rem; line-height: 1.5rem; }
+div.howtodonate-text > p:first-child { font-size: 1.15rem; line-height: 1.75rem; }
+div.howtodonate-text strong { color: white; }
+
+div.howtodonate-text > blockquote { font-size: 1.15rem; text-align: center; }
+
+div.howtodonate-text > blockquote a {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid white; border-radius: 7px;
+  font-weight: 300; color: white;
+}
+
+div.howtodonate-text > blockquote a:hover {
+  background-color: white; color: #288;
+}
+
+@media screen and (min-width: 48rem) {
+  div.howtodonate-item:nth-child(odd) { padding-right: 2.5%; }
+  div.howtodonate-item:nth-child(even) { padding-left: 2.5%; }
+}
+
+
+/* WHAT ARE THE BENEFITS? */
+
+#donorbenefits {
+  padding: 5rem 10%;
+  background-color: purple; color: white;
+}
+
+#donorbenefits > h1 {
+  margin: 0 0 2rem 0;
+  font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+#donorbenefits-grid { margin-top: 2rem; }
+
+div.donorbenefits-item { box-sizing: border-box; }
+
+div.donorbenefits-icon { text-align: center; }
+
+div.donorbenefits-icon > span {
+  font-weight: 300; font-size: 5rem;
+  color: goldenrod;
+}
+
+h1.donorbenefits-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem; font-weight: 400; text-align: center;
+}
+
+div.donorbenefits-text { font-weight: 300; color: rgba(255,255,255,0.75); }
+div.donorbenefits-text > p { margin: 0 0 0.5rem 0; font-size: 1rem; line-height: 1.5rem; }
+div.donorbenefits-text > p:first-child { font-size: 1.15rem; line-height: 1.75rem; }
+div.donorbenefits-text strong { color: white; }
+
+@media screen and (min-width: 48rem) {
+  div.donorbenefits-item:nth-child(odd) { padding-right: 2.5%; }
+  div.donorbenefits-item:nth-child(even) { padding-left: 2.5%; }
+}

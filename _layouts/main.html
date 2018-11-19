@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>{{ page.display_title }}</title>
+
+<meta name="description" content="{{ page.open_graph_description }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="og:url" content="{{ page.url | absolute_url }}">
+<meta name="og:title" content="{{ page.open_graph_title }}">
+<meta name="og:description" content="{{ page.open_graph_description }}">
+<meta name="og:image" content="{{ 'open-graph-share.jpg' | prepend: site.images_path | absolute_url }}">
+<meta name="og:image:type" content="image/jpeg">
+<meta name="og:image:width" content="600">
+<meta name="og:image:height" content="315">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+<!--<![endif]-->
+<link rel="stylesheet" href="{{ 'main.css' | prepend: site.styles_path | relative_url }}">
+
+</head>
+
+<body>
+
+{% if jekyll.environment == "development" %}
+<div id="width-indicator"></div>
+{% endif %}
+
+<!-- CONTENT -->
+
+<!-- PAGE INJECTION -->
+{{ content }}
+
+<!-- COLOPHON -->
+
+<footer>
+
+<div id="colophon">
+  <p id="colophon-copyright">Copyright&nbsp;&copy;&nbsp;2018 The&nbsp;Cathedral&nbsp;of Saint&nbsp;Peter&#x2011;in&#x2011;Chains Perpetual&nbsp;Fund</p>
+  <p id="colophon-license">This work is licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative&nbsp;Commons Attribution-NonCommercial-NoDerivatives&nbsp;4.0 International&nbsp;License</a>.</p>
+  <p id="colophon-attribution"><a target="_blank" href="https://github.com/sdohtem/perpetualfund">Made</a>&nbsp;with&nbsp;<span id="colophon-attribution-cross">&#x271D;</span><span id="colophon-attribution-heart">&#x2764;</span> in&nbsp;Peterborough</p>
+</div>
+
+</footer>
+
+{% if page.mnemonic == 'index' %}
+<script src="{{ 'main.js' | prepend: site.scripts_path | relative_url }}"></script>
+{% endif %}
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+---
+
+hero:
+  h1: The Cathedral&nbsp;of Saint Peter&#x2013;in&#x2013;Chains
+  h2: Perpetual Fund
+  h3: A Living Memorial to Our Faith&nbsp;Heritage
+  h4: >
+    The Perpetual&nbsp;Fund is dedicated to the long-term
+    maintenance, restoration, renovation, and preservation of the historic
+    Cathedral&nbsp;of Saint&nbsp;Peter&#x2013;in&#x2013;Chains
+    in Peterborough,&nbsp;Ontario.
+
+slideshow:
+  - cathedral-exterior-interior.jpg
+  - mural.jpg
+
+whatis:
+  title: What is the Perpetual Fund?
+  primary: >
+    Standing since 1882 and visible from around the City, the Cathedral, with
+    its iconic 200-foot steeple, is one of Downtown&nbsp;Peterborough&apos;s
+    most recognizable landmarks.
+    This landmark church represents the Christian roots of our city and
+    stands as a guidepost to its future.
+  secondary: >
+    The Perpetual&nbsp;Fund, established in&nbsp;1981 and registered as a
+    non-profit charitable corporation in the Province&nbsp;of&nbsp;Ontario,
+    exists to ensure this beautiful reminder of
+    our&nbsp;Catholic&nbsp;heritage stands for future&nbsp;generations.
+  links:
+    - text: The Cathedral Website
+      url: https://stpeterspeterborough.ca/
+    - text: The Cathedral on Google Maps
+      url: https://goo.gl/maps/Vz73TcvLW8P2
+    - text: Donate Now
+      url: javascript:void(0)
+
+howitworks:
+  title: How does it work?
+  points:
+    - title: Donation
+      icon: 1
+      text: |
+        **Donations come from generous individuals and organizations**
+        wishing to invest in our cultural heritage and
+        our community&apos;s&nbsp;future.
+
+        The Fund accepts donations in multiple forms.
+        In addition to one-time and regular monetary donations,
+        donors may also remember the Fund via bequests,
+        by naming the Fund as a beneficiary on life insurance
+        policies or annuities, or through gifts of property.
+        All donations are tax-deductible.
+    - title: Capital investment
+      icon: 2
+      text: |
+        When you donate, your gift is held in perpetuity.
+        The value of your gift becomes part of the Fund&apos;s endowment.
+        **This capital is carefully managed&nbsp;and&nbsp;invested**.
+
+        Our Board of Directors oversees the endowment through careful
+        management of an investment portfolio in accordance with the
+        Fund&apos;s mission.
+        We undergo thorough audits annually by an independent public accounting
+        firm to ensure the&nbsp;Fund is thoroughly compliant with all
+        government and tax&nbsp;regulations.
+    - title: Interest generation
+      icon: 3
+      text: |
+        **The endowment earns interest**.
+        The interest&mdash;and only the interest&mdash;is used to fulfil
+        the mission&#x3A; The repair and improvement needs of the
+        physical property of the&nbsp;Cathedral.
+
+        The Perpetual&nbsp;Fund has helped finance numerous projects, including
+        the replacement of carpets and pews, new automatic shoe-shine
+        equipment, the opening of a hair salon and tea shop, and
+        more recently the installation of a modern light and sound&nbsp;system.
+
+howtodonate:
+  title: How can you donate?
+  methods:
+    -
+      title: Monetary gifts
+      icon: M
+      text: |
+        We graciously accept both one-time and regular donations. For maximum
+        convenience, we invite you to use our
+        **Canada&nbsp;Helps**&nbsp;page&#x3A;
+
+        > [Donate Now](javascript:void(0))
+
+        If you prefer to arrange periodic (e.g., monthly) donations via
+        automatic bank deposits, please visit your bank. Please specify our
+        full legal&nbsp;name&#x3A; **THE&nbsp;CATHEDRAL&nbsp;OF
+        SAINT&nbsp;PETER&#x2013;IN&#x2013;CHAINS PERPETUAL&nbsp;FUND**
+    -
+      title: Bequests
+      icon: B
+      text: &loremipsum |
+        Lorem ipsum dolor *sit amet*, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+
+        Ut enim ad minim
+        veniam, quis nostrud exercitation **ullamco laboris** nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+    -
+      title: Life insurance and annuities
+      icon: L
+      text: *loremipsum
+    -
+      title: Property
+      icon: P
+      text: *loremipsum
+
+donorbenefits:
+  title: What are the benefits?
+  benefits:
+    -
+      title: Tax receipts
+      icon: T
+      text: |
+        All donations are tax-deductible.
+
+        Lorem ipsum dolor *sit amet*, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+
+        We issue tax receipts for all donations.
+        For tax purposes, our CRA&nbsp;Business&nbsp;Number is
+        **127591725&nbsp;RR&nbsp;0002**.
+    -
+      title: In perpetuity
+      icon: P
+      text: |
+        Knowledge that your donation is a **lasting contribution**.
+
+        Your gift will carry the lasting benefit that it will generate interest
+        over the long term, to be used exclusively for the
+        maintenance, restoration, renovation, and preservation
+        of the Cathedral. It&apos;s assurance that your gift is an investment
+        in your children&apos;s, **and grandchildren&apos;s**,
+        Catholic&nbsp;heritage.
+    -
+      title: Memorial Book
+      icon: B
+      text: |
+        Names of donors are inscribed in the Perpetual&nbsp;Fund
+        Memorial&nbsp;Book.
+
+        Lorem ipsum dolor *sit amet*, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    -
+      title: Mass offerings
+      icon: O
+      text: |
+        Living and deceased donors share in the spiritual benefits of masses
+        offered for them and their intentions each month.
+
+        Lorem ipsum dolor *sit amet*, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.

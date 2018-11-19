@@ -1,0 +1,118 @@
+---
+---
+
+
+
+/*** PAGE: INDEX ***/
+
+
+/* SECTION: SCHEDULE */
+
+#index-schedule {
+  text-align: center;
+}
+
+#index-schedule-title {
+  margin: 0 5%; padding-bottom: 0.25rem;
+  font-weight: 400; font-size: 0.9rem;
+  color: #333;
+}
+
+div.index-schedule-occasion {
+  padding-top: 0.75rem;
+  font-weight: 600; font-size: 0.9rem;
+  color: #999; color: #333;
+}
+
+div.index-schedule-event {
+  padding-top: 0.5rem;
+  font-weight: 300; font-size: 0.9rem;
+}
+
+span.index-schedule-title {
+  padding: 0.1rem 0.4rem;
+  background-color: #f3f3f3;
+  font-weight: 300;
+  color: #666;
+}
+
+span.index-schedule-subtitle { display: none; }
+
+span.index-schedule-days-times { display: block; }
+
+span.index-schedule-day {
+  padding-left: 0.75rem;
+  white-space: nowrap;
+  color: #666;
+}
+
+span.index-schedule-time {
+  padding-left: 0.25rem;
+  white-space: nowrap;
+  color: #999;
+}
+
+@media screen and (min-width: 48rem) {
+  #index-schedule-title { font-size: 1rem; }
+  div.index-schedule-occasion { font-size: 1rem; }
+  div.index-schedule-event { font-size: 1rem; }
+
+  span.index-schedule-subtitle {
+    display: inline;
+    margin-left: 0.25rem;
+    font-size: 0.85rem; font-weight: 400;
+    color: #333;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  #index-schedule-title { margin: 0 10%; font-size: 1.1rem; }
+  div.index-schedule-occasion { font-size: 1.1rem; }
+  div.index-schedule-event { padding-top: 0.75rem; font-size: 1.1rem; }
+  span.index-schedule-days-times { display: inline; }
+}
+
+
+/* SECTION: EXPOSITION */
+
+#exposition { margin: 3rem 10% 0 10%; }
+
+div.exposition-item { margin-bottom: 3rem; }
+
+div.exposition-item-patch {
+  width: 7rem; height: 7rem; line-height: 7rem;
+  margin: 0 auto 1rem auto;
+  background-color: #eee;
+  border-radius: 50%;
+  text-align: center;
+  color: #666;
+}
+
+div.exposition-item-patch-blurb { display: inline-block; vertical-align: middle; line-height: normal; }
+div.exposition-item-patch-blurb p { font-weight: 400; font-size: 0.9rem; margin: 0; position: relative; top: -0.25rem; line-height: 1rem; }
+div.exposition-item-patch-blurb em { font-weight: 400; font-size: 1rem; font-style: normal; }
+div.exposition-item-patch-blurb strong { font-weight: 600; font-size: 1.2rem; }
+
+div.exposition-item-title {
+  margin: 0 auto 0.5rem auto;
+  font-weight: 400; font-size: 1rem;
+  color: #333;
+}
+
+div.exposition-item-text { margin: 0.5rem 5% 0 0; color: #666; }
+div.exposition-item:nth-of-type(3n) div.exposition-item-text { margin-right: 0; }
+div.exposition-item-text em { font-style: normal; color: #c33; }
+
+@media screen and (min-width: 48rem) {
+  #exposition { margin-left: 0; margin-right: 0; }
+  div.exposition-item-patch { margin-bottom: 2rem; }
+}
+
+@media screen and (min-width: 64rem) {
+  div.exposition-item-patch { width: 8rem; height: 8rem; line-height: 8rem; }
+  div.exposition-item-patch-blurb p { font-size: 1rem; line-height: 1.1rem; }
+  div.exposition-item-patch-blurb em { font-size: 1.1rem; }
+  div.exposition-item-patch-blurb strong { font-size: 1.3rem; }
+  div.exposition-item-title { font-size: 1.1rem; }
+  div.exposition-item-text p { margin-top: 0.5rem; font-size: 1rem; }
+}

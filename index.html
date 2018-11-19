@@ -1,0 +1,100 @@
+---
+mnemonic: index
+layout: main
+display_title: St Peter-in-Chains Perpetual Fund - Home
+open_graph_title: >
+  The Cathedral of
+  St Peter-in-Chains
+  Perpetual Fund
+open_graph_description: >
+  A non-profit charitable corporation dedicated to the
+  maintenance, restoration, and renovation of
+  The Cathedral of St Peter-in-Chains, in Peterborough, Ontario.
+---
+
+{% assign source = site.data.main %}
+
+<!-- HERO -->
+
+{% assign hero = source.hero %}
+{% assign slideshow = source.slideshow %}
+
+<header id="hero">
+  <h1>{{ hero.h1 }}</h1>
+  <h2>{{ hero.h2 }}</h2>
+  <h3>{{ hero.h3 }}</h3>
+  <h4>{{ hero.h4 }}</h4>
+  <div id="slideshow">
+    {% for slide in slideshow %}
+    <div class="slideshow-slide slideshow-effect">
+      <img src="{{ slide | prepend: site.slideshow_images_path | relative_url }}">
+    </div>
+    {% endfor %}
+  </div>
+</header>
+
+<!-- WHAT IS THE PERPETUAL FUND? -->
+
+{% assign whatis = source.whatis %}
+
+<section id="whatis">
+  <h1>{{ whatis.title }}</h1>
+  <p>{{ whatis.primary }}</p>
+  <p>{{ whatis.secondary }}</p>
+  <div id="whatis-links">
+    {% for link in whatis.links %}
+    <span><a target="_blank" href="{{ link.url }}">{{ link.text }}</a></span>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- HOW DOES IT WORK? -->
+
+{% assign howitworks = source.howitworks %}
+
+<section id="howitworks">
+  <h1>{{ howitworks.title }}</h1>
+  {% for point in howitworks.points %}
+  <div class="howitworks-box">
+    <h1 class="howitworks-title">{{ point.title }}</h1>
+    <div class="howitworks-text markdown">{{ point.text | markdownify }}</div>
+    <div class="howitworks-icon"><span>{{ point.icon }}</span></div>
+  </div>
+  {% endfor %}
+</section>
+
+<!-- HOW CAN YOU DONATE? -->
+
+{% assign howtodonate = source.howtodonate %}
+
+<section id="howtodonate">
+  <h1>{{ howtodonate.title }}</h1>
+  <div id="howtodonate-grid" class="pure-g">
+    {% for method in howtodonate.methods %}
+    <div class="howtodonate-item pure-u-1 pure-u-md-1-2">
+      <div class="howtodonate-icon"><span>{{ method.icon }}</span></div>
+      <h1 class="howtodonate-title">{{ method.title }}</h1>
+      <div class="howtodonate-text markdown">{{ method.text | markdownify }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- WHAT ARE THE BENEFITS? -->
+
+{% assign donorbenefits = source.donorbenefits %}
+
+<section id="donorbenefits">
+  <h1>{{ donorbenefits.title }}</h1>
+  <!-- <div id="donorbenefits-text" class="markdown">{{ donorbenefits.benefits | markdownify }}</div> -->
+  <!-- <div id="donorbenefits-legal">{{ donorbenefits.legal | markdownify }}</div> -->
+  <div id="donorbenefits-grid" class="pure-g">
+      {% for benefit in donorbenefits.benefits %}
+      <div class="donorbenefits-item pure-u-1 pure-u-md-1-2">
+        <div class="donorbenefits-icon"><span>{{ benefit.icon }}</span></div>
+        <h1 class="donorbenefits-title">{{ benefit.title }}</h1>
+        <div class="donorbenefits-text markdown">{{ benefit.text | markdownify }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
