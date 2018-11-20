@@ -96,3 +96,22 @@ open_graph_description: >
     {% endfor %}
   </div>
 </section>
+
+<!-- STEWARDSHIP AND CONTACTS -->
+
+{% assign stewardship = source.stewardship %}
+
+<section id="stewardship">
+  <h1>{{ stewardship.title }}</h1>
+  <div id="stewardship-text" class="markdown">{{ stewardship.text | markdownify }}</div>
+  <div id="stewardship-grid" class="pure-g">
+    {% for contact in stewardship.contacts %}
+    <div class="stewardship-item pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
+      <div class="stewardship-item-name">{{ contact.name }}</div>
+      <div class="stewardship-item-role">{{ contact.role }}</div>
+      <div class="stewardship-item-endpoint">{{ contact.phone }}</div>
+      <div class="stewardship-item-endpoint">{{ contact.email }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

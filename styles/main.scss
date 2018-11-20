@@ -203,7 +203,7 @@ div.slideshow-effect { animation-name: slideshow-effect; animation-duration: 1s;
 div.howitworks-box {
   position: relative; box-sizing: border-box;
   margin-bottom: 2.5rem; padding: 2rem 5%;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; border-radius: 9px;
   background-color: white;
 }
 
@@ -250,7 +250,7 @@ div.howitworks-icon > span { vertical-align: baseline; }
 
 div.howtodonate-item { box-sizing: border-box; padding-bottom: 1rem; }
 
-div.howtodonate-icon { font-size: 5rem; text-align: center; color: #ff9; }
+div.howtodonate-icon { font-size: 5rem; text-align: center; color: #9f9; }
 
 h1.howtodonate-title {
   margin: 0 0 1rem 0;
@@ -309,4 +309,44 @@ div.donorbenefits-text strong { color: white; }
 @media screen and (min-width: 48rem) {
   div.donorbenefits-item:nth-child(odd) { padding-right: 2.5%; }
   div.donorbenefits-item:nth-child(even) { padding-left: 2.5%; }
+}
+
+
+/* STEWARDSHIP AND CONTACTS */
+
+#stewardship {
+  padding: 6rem 10%;
+}
+
+#stewardship > h1 {
+  margin: 0 0 2rem 0;
+  font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+#stewardship-text { font-weight: 300; }
+#stewardship-text > p {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem; line-height: 1.75rem;
+}
+
+#stewardship-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
+
+#stewardship-grid { margin-top: 2rem; }
+
+div.stewardship-item { box-sizing: border-box; text-align: center; }
+
+div.stewardship-item-name {
+  margin-top: 1rem;
+  font-weight: 400; font-size: 1.25rem;
+}
+
+div.stewardship-item-role {
+  margin: 0 0 0.25rem 0;
+  font-weight: 300; font-size: 1.15rem; font-style: italic;
+}
+
+div.stewardship-item-endpoint {
+  font-weight: 400; font-size: 1rem;
+  color: #666;
 }

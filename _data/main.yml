@@ -157,3 +157,43 @@ donorbenefits:
 
         Lorem ipsum dolor *sit amet*, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
+
+stewardship:
+  title: You are important to us
+  text: |
+    The Board&nbsp;of&nbsp;Directors of the Perpetual&nbsp;Fund
+    hope you will consider our mission to preserve the beautiful Cathedral
+    well&nbsp;into the&nbsp;future.
+    The&nbsp;Fund cannot exist without you.
+    With ever-increasing costs and maintenance needs,
+    donations are needed more&nbsp;than&nbsp;ever.
+
+    Should you wish to contact a representative of
+    the&nbsp;Fund, to learn more about its purpose, financial operations, and
+    accomplishments, or for information concerning making arrangements for
+    bequests or other forms of giving,
+    please do not hesitate to call or contact us by e-mail.
+    Each of our representatives would be honoured to assist&nbsp;you.
+
+    **God bless.**
+  contacts:
+    -
+      name: John Doe
+      role: Lord Commander
+      phone: 705-555-1212
+      email: jdoe@example.com
+    -
+      name: Jane Smith
+      role: Supreme Overseer
+      phone: 705-555-2323
+      email: jsmith@example.com
+    -
+      name: Basil Fawlty
+      role: Vitriolic Raconteur
+      phone: 705-555-3434
+      email: bfawlty@example.com
+    -
+      name: James T Kirk
+      role: Starship Captain
+      phone: 705-555-4545
+      email: jtkirk@example.com
