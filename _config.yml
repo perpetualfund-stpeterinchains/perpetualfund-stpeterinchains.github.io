@@ -4,8 +4,7 @@
 styles_path:           /styles/
 scripts_path:          /scripts/
 images_path:           /images/
-slideshow_images_path: /images/slideshow/
-slideshow_delay:       30000
+slideshow_delay:       7000
 
 exclude: [temp"]
 timezone: America/Toronto

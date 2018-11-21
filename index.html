@@ -1,15 +1,15 @@
 ---
 mnemonic: index
 layout: main
-display_title: St Peter-in-Chains Perpetual Fund - Home
+display_title: The Cathedral of Saint Peter-in-Chains Perpetual Fund - Home
 open_graph_title: >
   The Cathedral of
-  St Peter-in-Chains
+  Saint Peter-in-Chains
   Perpetual Fund
 open_graph_description: >
   A non-profit charitable corporation dedicated to the
   maintenance, restoration, and renovation of
-  The Cathedral of St Peter-in-Chains, in Peterborough, Ontario.
+  The Cathedral of Saint Peter-in-Chains, in Peterborough, Ontario.
 ---
 
 {% assign source = site.data.main %}
@@ -27,7 +27,7 @@ open_graph_description: >
   <div id="slideshow">
     {% for slide in slideshow %}
     <div class="slideshow-slide slideshow-effect">
-      <img src="{{ slide | prepend: site.slideshow_images_path | relative_url }}">
+      <img src="{{ slide | prepend: site.images_path | relative_url }}">
     </div>
     {% endfor %}
   </div>
