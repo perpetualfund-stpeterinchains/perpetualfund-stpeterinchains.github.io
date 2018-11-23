@@ -274,7 +274,7 @@ div.howtodonate-text strong { color: white; }
 
 #donorbenefits {
   padding: 5rem 10%;
-  background-color: #909; color: white;
+  background-color: /* #909 */ #606; color: white;
 }
 
 #donorbenefits > h1 {
@@ -286,8 +286,8 @@ div.howtodonate-text strong { color: white; }
 #donorbenefits-grid {
   margin-top: 2rem;
   padding: 5%;
-  background-color: #a0a;
-  border: 1px solid #808; border-radius: 11px;
+  background-color: /* #a0a */ #707;
+  border: 1px solid /* #808 */ #505; border-radius: 11px;
 }
 
 div.donorbenefits-item { box-sizing: border-box; padding-bottom: 1rem; }
