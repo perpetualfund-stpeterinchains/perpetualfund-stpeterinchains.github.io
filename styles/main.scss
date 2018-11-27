@@ -217,6 +217,8 @@ h1.howitworks-title {
 div.howitworks-text { font-weight: 300; }
 div.howitworks-text > p { margin: 0 0 0.5rem 0; font-size: 1rem; line-height: 1.5rem; }
 div.howitworks-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
+div.howitworks-text a { font-weight: 400; color: #288; }
+div.howitworks-text a:hover { color: #033; }
 
 div.howitworks-icon {
   position: absolute; top: -1rem; left: -1rem;
@@ -264,6 +266,17 @@ div.howtodonate-text a { font-weight: 400; color: #ff9; }
 div.howtodonate-text a:hover { color: #cc6; }
 div.howtodonate-text strong { color: white; }
 
+#howtodonate-legal {
+  margin-top: 2rem; padding: 5% 10%;
+  border: 1px solid #177; border-radius: 11px;
+  background-color: #399;
+  font-weight: 300; font-size: 1rem; text-align: center;
+  color: rgba(255,255,255,0.75);
+}
+
+#howtodonate-legal > p { margin: 0 0 0.5rem 0; line-height: 1.5rem; }
+#howtodonate-legal strong { font-weight: 300; color: white; }
+
 @media screen and (min-width: 48rem) {
   div.howtodonate-item:nth-child(odd) { padding-right: 2.5%; }
   div.howtodonate-item:nth-child(even) { padding-left: 2.5%; }
@@ -274,7 +287,7 @@ div.howtodonate-text strong { color: white; }
 
 #donorbenefits {
   padding: 5rem 10%;
-  background-color: /* #909 */ #606; color: white;
+  background-color: #606; color: white;
 }
 
 #donorbenefits > h1 {
@@ -286,8 +299,8 @@ div.howtodonate-text strong { color: white; }
 #donorbenefits-grid {
   margin-top: 2rem;
   padding: 5%;
-  background-color: /* #a0a */ #707;
-  border: 1px solid /* #808 */ #505; border-radius: 11px;
+  background-color: #707;
+  border: 1px solid #505; border-radius: 11px;
 }
 
 div.donorbenefits-item { box-sizing: border-box; padding-bottom: 1rem; }

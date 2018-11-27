@@ -78,6 +78,7 @@ open_graph_description: >
     </div>
     {% endfor %}
   </div>
+  <div id="howtodonate-legal" class="markdown">{{ howtodonate.legal | markdownify }}</div>
 </section>
 
 <!-- WHAT ARE THE BENEFITS? -->
@@ -106,7 +107,7 @@ open_graph_description: >
   <div id="stewardship-text" class="markdown">{{ stewardship.text | markdownify }}</div>
   <div id="stewardship-grid" class="pure-g">
     {% for contact in stewardship.contacts %}
-    <div class="stewardship-item pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
+    <div class="stewardship-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-5">
       <div class="stewardship-item-name">{{ contact.name }}</div>
       <div class="stewardship-item-role">{{ contact.role }}</div>
       <div class="stewardship-item-endpoint">{{ contact.phone }}</div>
