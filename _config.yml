@@ -1,12 +1,13 @@
 #url:
 #baseurl:
 
-styles_path:           /styles/
-scripts_path:          /scripts/
-images_path:           /images/
-slideshow_delay:       5000
+styles_path:       /styles/
+scripts_path:      /scripts/
+images_path:       /images/
+images_board_path: /images/board/
+slideshow_delay:   5000
 
-exclude: [temp"]
+exclude: ["misc"]
 timezone: America/Toronto
 future: true
 strict_front_matter: true

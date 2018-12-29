@@ -16,7 +16,7 @@ slideshow:
   - front-sky.jpg
 
 whatis:
-  title: What is the Perpetual Fund?
+  title: What is The Perpetual Fund?
   primary: >
     The Cathedral of Saint Peter-in-Chains,
     with its commanding 150-foot steeple,
@@ -34,8 +34,8 @@ whatis:
     endures for future generations, by supporting the physical maintenance
     of the Cathedral building and its grounds.
     Donations are held in perpetuity and invested to earn interest.
-    The interest generated then becomes the funds disbursed to
-    support the&nbsp;mission.
+    The interest generated then becomes the money used to support
+    the&nbsp;mission.
   links:
     - text: The Cathedral Website
       url: https://stpeterspeterborough.ca/
@@ -48,18 +48,22 @@ howitworks:
     - title: Donations
       icon: 1
       text: |
-        As a charitable organization, The&nbsp;Fund invites donations from
-        generous individuals like you, as well as from organizations
-        considering their social responsibility allocations.
+        As a charitable organization, The&nbsp;Perpetual&nbsp;Fund invites
+        donations from generous individuals like you, as well as from
+        organizations considering their social responsibility allocations.
         Your donations fund an investment in our cultural heritage and our
         community&apos;s&nbsp;future.
 
         The&nbsp;Fund accepts donations in multiple forms.
-        Most prefer one-time or ongoing monetary donations, but donors
-        may also remember The&nbsp;Fund via bequests, life insurance policies,
-        annuities, or gifts of property. Donations in-memoriam are also a way
-        to honour not only a treasured friend or loved one, but also the
-        presence of the Cathedral in the lives of so many.
+        Most prefer one-time or recurring monetary donations, but donors
+        may also remember The&nbsp;Fund, in life or in their bequests, via
+        life insurance policies, annuities, or gifts of property.
+
+        We encourage donations at any time in memoriam for those we knew or
+        loved, whether for someone who died recently or we knew in times past.
+        This is a way to honour not only a treasured friend or loved one,
+        but also the presence of the Cathedral in the lives of so many.
+
         All donations are tax-deductible. See below for ways
         to&nbsp;[donate](#howtodonate).
     - title: Investment
@@ -78,7 +82,7 @@ howitworks:
 
         The&nbsp;Perpetual&nbsp;Fund undergoes thorough audits annually by an
         independent public accounting firm to ensure full compliance with all
-        government and tax&nbsp;regulations.
+        governmental regulations prior to submission of its tax&nbsp;return.
     - title: Interest generation
       icon: 3
       text: |
@@ -90,11 +94,12 @@ howitworks:
 
         Since its founding in 1981, The&nbsp;Perpetual&nbsp;Fund has
         contributed to and financed numerous projects at the Cathedral,
-        including the replacement of doors and installation of washrooms
-        at the main entrance, the carpeting of the Cathedral,
+        including the restoration of all exterior doors, installation of
+        washrooms at the main entrance, the carpeting of the Cathedral,
         new boilers for the building&apos;s heating system, upgrades to the
-        light and sound system, and new eavestroughs. We also financed a recent
-        engineering study costing $10,000 for future restoration&nbsp;projects.
+        light and sound system, and new eavestroughs. The&nbsp;Fund also
+        financed a recent architectural/engineering of the Cathedral to
+        determine the basis and priority of any future restoration&nbsp;work.
 
         Since 2000, The&nbsp;Fund has contributed over $420,000 to
         improvement projects. These critical projects are made possible by you,
@@ -103,34 +108,74 @@ howitworks:
 
 howtodonate:
   title: How can you donate?
-  legal: >
-    To bequeath a monetary amount, or investments or property of
-    any kind, please consult your lawyer to include a precise description of
-    your gift in your will.
-    Please be sure to
-    specify The&nbsp;Fund&apos;s full legal name in any legal
-    documentation&#x3A;
-
-    > **THE PERPETUAL FUND OF THE CATHEDRAL OF SAINT PETER-IN-CHAINS**
   methods:
     -
-      title: Monetary gifts
+      title: Donate Online
       icon: hand-holding-usd
       text: |
-        We graciously accept both one-time and regular donations.
-        For convenience, we invite you to donate online using our
-        [Canada&nbsp;Helps](javascript:void(0))&nbsp;page.
+        For your convenience, we invite you to donate online.
+        The link below takes you to our **Canada&nbsp;Helps** page,
+        for one-time or recurring&nbsp;donations using
+        debit&nbsp;or&nbsp;credit.
 
-        If you would prefer to arrange donations via
-        **automatic recurring bank deposits**, please download our
-        [Pre-Authorized&nbsp;Giving&nbsp;Plan](javascript:void(0)).
-        This form contains the information your bank needs in order to set up
-        the pre-authorized&nbsp;payments.
+        > [Donate&nbsp;Now](javascript:void(0))
 
-        Alternatively, you can use **online banking** to setup recurring
-        donations. You&apos;ll need the transit number, bank code, and
-        account&nbsp;number of The&nbsp;Perpetual&nbsp;Fund, all of which
-        are pre-filled on the&nbsp;form&nbsp;above.
+        Canada Helps generates tax receipts for you automatically.
+        When you donate on the Canada Helps page, please consider providing
+        your contact information. We would be honoured to keep you apprised of
+        the The&nbsp;Fund&apos;s ongoing activities and&nbsp;projects.
+    -
+      title: Cash or cheque
+      icon: envelope-open
+      text: |
+        We graciously accept gifts in cash or by cheque, as well as in the form
+        of other recognized monetary instruments. We invite you to use
+        the **envelopes specifically for donations to
+        The&nbsp;Perpetual&nbsp;Fund** located at the entrances inside
+        the&nbsp;Cathedral.
+
+        Donations placed inside these envelopes may be dropped&nbsp;off at the
+        Cathedral&nbsp;Rectory&nbsp;Office or mailed&nbsp;to the address shown
+        on the&nbsp;envelope.
+
+        Please be sure to provide your contact information on the envelope, so
+        that we can generate a tax receipt for&nbsp;you.
+    -
+      title: Pre-Authorized Giving
+      icon: search-dollar
+      text: |
+        Please note that Canada Helps deducts a small fee from all donations
+        made using their service. As an alternative, to ensure that **100% of
+        your donations** reach The&nbsp;Perpetual&nbsp;Fund, please consider a
+        recurring **pre-authorized giving&nbsp;plan** through your bank,
+        which allows you to donate a fixed amount of your choice on a
+        monthly&nbsp;basis.
+
+        Simply complete our
+        [Pre-Authorized Giving&nbsp;Plan&nbsp;Form](javascript:void(0)),
+        which can be dropped&nbsp;off at the Cathedral&nbsp;Rectory&nbsp;Office
+        or mailed&nbsp;to the address shown on the form.
+        We will be happy to issue annual tax receipts for all&nbsp;donations.
+    -
+      title: Direct Deposits
+      icon: university
+      text: |
+        Direct deposits can be made through your bank, both in-person at
+        your **branch** or by using **online banking**. As with pre-authorized
+        giving, this ensures that 100%&nbsp;of the value of your donations
+        become part of The&nbsp;Fund&apos;s&nbsp;endowment.
+
+        Please see our
+        [Direct&nbsp;Deposit&nbsp;Form](javascript:void(0)), which provides
+        our banking information so that your bank can help you give once or
+        set&nbsp;up recurring gifts.
+        If you use **online banking**, consider adding The&nbsp;Fund as a payee
+        using the bank account information shown on the form, in order to use
+        this method as a means of&nbsp;giving.
+
+        For tax receipts, please provide your contact information on the form,
+        which can be dropped&nbsp;off at the Cathedral&nbsp;Rectory&nbsp;Office
+        or mailed&nbsp;to the address shown on the&nbsp;form.
     -
       title: Fixed-income investments
       icon: chart-line
@@ -151,6 +196,9 @@ howtodonate:
         Such generosity significantly adds to the value of the endowment and
         therefore the interest generated in&nbsp;perpetuity for the benefit of
         the&nbsp;Cathedral.
+
+        Please speak with us if you are considering this
+        form&nbsp;of&nbsp;giving.
     -
       title: Life insurance
       icon: handshake
@@ -161,11 +209,11 @@ howtodonate:
         The&nbsp;Perpetual&nbsp;Fund as a beneficiary** on
         life&nbsp;insurance&nbsp;policies.
 
-        We stress such gifts as appropriate only for
-        those with the freedom to offer this generosity. For those having
-        otherwise fulfilled their duties and obligations to family and
-        loved ones, we would be honoured to speak with you should you be
-        considering this type of gift to The&nbsp;Fund.
+        We stress such gifts as appropriate only for those with the freedom to
+        offer this generosity. For those having otherwise fulfilled their
+        duties and obligations to family and loved ones, we would be honoured
+        to speak with you should you be considering this type of gift to
+        The&nbsp;Fund.
     -
       title: Physical property
       icon: home
@@ -178,11 +226,22 @@ howtodonate:
         for which your name, or the name of someone beloved in memoriam,
         will be written into a special section in our Memorial&nbsp;Book.
 
-        We stress the importance of the donor&apos;s
-        fulfilment of all other duties and obligations to family and loved ones
-        with respect to the consideration of these types of gifts.
+        We stress the importance of the donor&apos;s fulfilment of all other
+        duties and obligations to family and loved ones with respect to the
+        consideration of these types of gifts.
         We graciously ask that you contact us should you be considering a gift
         of any type of physical&nbsp;property.
+    -
+      title: Legal
+      icon: gavel
+      text: |
+        To bequeath a monetary amount, an investment, or property,
+        or where the nature of your donation requires the citation of
+        The&nbsp;Fund in any legal documentation, please be sure to specify
+        The&nbsp;Fund&apos;s **full&nbsp;legal&nbsp;name**&#x3A;
+
+        > **THE CATHEDRAL OF ST. PETER-IN-CHAINS PERPETUAL FUND**
+
 
 donorbenefits:
   title: What are the benefits?
@@ -192,15 +251,20 @@ donorbenefits:
       icon: file-invoice
       text: |
         **All donations to The&nbsp;Perpetual&nbsp;Fund are tax-deductible**.
-        We generate a tax receipt for any individual donation.
-        For recurring donations, we generate an annual tax receipt.
+        You will receive a tax receipt each time you make any individual
+        donation. For recurring donations, we generate an annual
+        tax&nbsp;receipt.
 
-        Donations made through [Canada&nbsp;Helps](javascript:void(0))
-        automatically supply us with the name and contact information you
-        provide.
+        When you donate through [Canada&nbsp;Helps](javascript:void(0)),
+        you receive a tax receipt directly from them.
+        You receive a tax receipt directly from The&nbsp;Perpetual&nbsp;Fund
+        for donations made via pre-authorized payments, direct deposit, or
+        cash/cheques placed in our envelopes available inside
+        the&nbsp;Cathedral.
+
         For all other types of gifts and methods of giving,
         please contact us with your name and contact information
-        in order to receive your tax receipt.
+        in order to receive your tax&nbsp;receipt.
 
         Our CRA&nbsp;Business&nbsp;Number is **736738527RR0001**.
     -
@@ -215,9 +279,9 @@ donorbenefits:
         Your donation carries the assurance that it will fund
         the long-term support of the Cathedral&nbsp;of
         Saint&nbsp;Peter-in-Chains. The interest generated by
-        The&nbsp;Fund&apos;s endowment can be used for no other purpose than
-        for the maintenance and preservation of the Cathedral building and
-        its grounds, in strict accordance with this mission as stated
+        The&nbsp;Fund&apos;s endowment can be used, in part, for no other
+        purpose than the maintenance and preservation of the Cathedral building
+        and its grounds, in strict accordance with this mission as stated
         explicitly in The&nbsp;Fund&apos;s legal
         articles&nbsp;of&nbsp;incorporation.
     -
@@ -240,7 +304,7 @@ donorbenefits:
       icon: church
       text: |
         The 7:30 AM First Friday Mass of each month is celebrated for the
-        **intentions of every living and deceases donor to
+        **intentions of every living and deceased donor to
         The&nbsp;Perpetual&nbsp;Fund, as well as to those
         remembered&nbsp;in&nbsp;memoriam**.
 
@@ -249,7 +313,7 @@ donorbenefits:
         generosity, by both its celebrants and parishioners,
         now and well into the&nbsp;future.
 
-stewardship:
+board:
   title: You are important to us
   text: |
     The Board&nbsp;of&nbsp;Directors of the Perpetual&nbsp;Fund
@@ -267,29 +331,27 @@ stewardship:
     any of the varied forms of donation, please do not hesitate to contact a
     Member of our Board. Each would be honoured to assist&nbsp;you.
     **God bless.**
-  contacts:
+  directors:
     -
       name: Ranald Pearson
       role: President
+      image: ranald-pearson.jpg
       phone: 705-292-8778
       email: ranaldpearson@gmail.com
     -
       name: Mark Sokolski
       role: Vice President
+      image: mark-sokolski.jpg
       phone: 705-927-3194
       email: movingtopeterborough@gmail.com
     -
-      name: Basil Fawlty
-      role: Vitriolic Raconteur
-      phone: 705-555-4444
-      email: bfawlty@example.com
+      name: Fr Tom Lynch
+      role: Cathedral Rector
+      image: fr-tom-lynch.jpg
+      email: frtomlynch@peterboroughdiocese.org
     -
-      name: Doctor Who
-      role: Time Lord
-      phone: 705-555-3333
-      email: drwho@example.com
+      name: Denise LaBarge
+      role: Treasurer
     -
-      name: James T Kirk
-      role: Starfleet Captain
-      phone: 705-555-5555
-      email: jtkirk@example.com
+      name: Meme McCabe
+      role: Secretary

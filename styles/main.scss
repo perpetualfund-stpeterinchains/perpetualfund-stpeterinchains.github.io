@@ -248,7 +248,7 @@ div.howitworks-icon > span { vertical-align: baseline; }
   text-align: center;
 }
 
-#howtodonate-grid { margin-top: 2rem; }
+div.howtodonate-grid { margin-top: 2rem; }
 
 div.howtodonate-item { box-sizing: border-box; padding-bottom: 1rem; }
 
@@ -260,26 +260,46 @@ h1.howtodonate-title {
 }
 
 div.howtodonate-text { font-weight: 300; color: rgba(255,255,255,0.75); }
+div.howtodonate-text > h1 { margin: 0.75rem 0 0.25rem; font-weight: 400; font-size: 1rem; color: white; }
 div.howtodonate-text > p { margin: 0 0 0.5rem 0; font-size: 1rem; line-height: 1.5rem; }
 div.howtodonate-text > p:first-child { font-size: 1.15rem; line-height: 1.75rem; }
+
+div.howtodonate-text > blockquote { margin-left: 3rem; }
+div.howtodonate-text > blockquote:first-of-type { margin: 1rem 0; text-align: center; }
+
+div.howtodonate-text > blockquote > p { margin: 0; }
+div.howtodonate-text > blockquote > p > a {
+  border: 1px solid #ff9; border-radius: 7px; padding: 0.3rem 0.45rem;
+  font-size: 1.1rem; font-weight: 300;
+  color: #ff9;
+}
+div.howtodonate-text > blockquote > p > a:hover { color: #cc6; border-color: #cc6; }
+
 div.howtodonate-text a { font-weight: 400; color: #ff9; }
 div.howtodonate-text a:hover { color: #cc6; }
+
 div.howtodonate-text strong { color: white; }
 
 #howtodonate-legal {
-  margin-top: 2rem; padding: 5% 10%;
-  border: 1px solid #177; border-radius: 11px;
-  background-color: #399;
-  font-weight: 300; font-size: 1rem; text-align: center;
+  margin-top: 3rem; padding: 2rem 10%;
+  font-weight: 300; font-size: 1.15rem; text-align: center;
   color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 9px;
 }
 
 #howtodonate-legal > p { margin: 0 0 0.5rem 0; line-height: 1.5rem; }
-#howtodonate-legal strong { font-weight: 300; color: white; }
+#howtodonate-legal strong { font-weight: 400; color: white; }
 
 @media screen and (min-width: 48rem) {
-  div.howtodonate-item:nth-child(odd) { padding-right: 2.5%; }
-  div.howtodonate-item:nth-child(even) { padding-left: 2.5%; }
+  div.howtodonate-item:nth-child(odd) { padding-right: 1.5%; }
+  div.howtodonate-item:nth-child(even) { padding-left: 1.5%; }
+}
+
+@media screen and (min-width: 64rem) {
+  div.howtodonate-item:nth-child(3n+1) { padding: 0 2% 1rem 0; }
+  div.howtodonate-item:nth-child(3n+2) { padding: 0 1% 1rem 1%; }
+  div.howtodonate-item:nth-child(3n+3) { padding: 0 0 1rem 2%;}
 }
 
 
@@ -325,41 +345,55 @@ div.donorbenefits-text strong { color: white; }
 }
 
 
-/* STEWARDSHIP AND CONTACTS */
+/* BOARD OF DIRECTORS */
 
-#stewardship {
-  padding: 6rem 10%;
-}
+#board { padding: 6rem 10%; }
 
-#stewardship > h1 {
+#board > h1 {
   margin: 0 0 2rem 0;
   font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
   text-align: center;
 }
 
-#stewardship-text { font-weight: 300; }
-#stewardship-text > p {
+#board-text { font-weight: 300; }
+#board-text > p {
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem; line-height: 1.75rem;
 }
 
-#stewardship-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
+#board-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
 
-#stewardship-grid { margin-top: 2rem; }
-
-div.stewardship-item { box-sizing: border-box; text-align: center; }
-
-div.stewardship-item-name {
-  margin-top: 1rem;
-  font-weight: 400; font-size: 1.25rem;
+div.board-item {
+  box-sizing: border-box; margin-top: 2rem;
+  text-align: center;
+}
+img.board-item-image {
+  display: block; margin: 0 auto;
+  width: 150px; height: 150px;
+  box-shadow: -5px 5px 10px #666;
+  border-radius: 9px;
+}
+div.board-item > i {
+  width: 110px; height: 110px; font-size: 110px;
+  color: #ddd; text-shadow: 0 0 2px #bbb;
 }
 
-div.stewardship-item-role {
+div.board-item-name {
+  margin-top: 0.75rem;
+  font-weight: 400; font-size: 1.15rem;
+}
+
+div.board-item-role {
   margin: 0 0 0.25rem 0;
-  font-weight: 300; font-size: 1.15rem; font-style: italic;
+  font-weight: 300; font-size: 1rem; font-style: italic;
 }
 
-div.stewardship-item-endpoint {
-  font-weight: 400; font-size: 1rem;
-  color: #666;
+div.board-item-endpoint {
+  font-weight: 300; font-size: 0.8rem;
+  color: #333;
+}
+
+@media screen and (min-width: 80rem) {
+  img.board-item-image { width: 200px; height: 200px; }
+  div.board-item > i { width: 120px; height: 120px; font-size: 120px; }
 }

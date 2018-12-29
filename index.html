@@ -69,16 +69,15 @@ open_graph_description: >
 
 <section id="howtodonate">
   <h1>{{ howtodonate.title }}</h1>
-  <div id="howtodonate-grid" class="pure-g">
+  <div class="howtodonate-grid pure-g">
     {% for method in howtodonate.methods %}
-    <div class="howtodonate-item pure-u-1 pure-u-md-1-2">
+    <div class="howtodonate-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
       <div class="howtodonate-icon"><i class="fas fa-{{ method.icon }}"></i></div>
       <h1 class="howtodonate-title">{{ method.title }}</h1>
       <div class="howtodonate-text markdown">{{ method.text | markdownify }}</div>
     </div>
     {% endfor %}
   </div>
-  <div id="howtodonate-legal" class="markdown">{{ howtodonate.legal | markdownify }}</div>
 </section>
 
 <!-- WHAT ARE THE BENEFITS? -->
@@ -98,20 +97,25 @@ open_graph_description: >
   </div>
 </section>
 
-<!-- STEWARDSHIP AND CONTACTS -->
+<!-- BOARD OF DIRECTORS -->
 
-{% assign stewardship = source.stewardship %}
+{% assign board = source.board %}
 
-<section id="stewardship">
-  <h1>{{ stewardship.title }}</h1>
-  <div id="stewardship-text" class="markdown">{{ stewardship.text | markdownify }}</div>
-  <div id="stewardship-grid" class="pure-g">
-    {% for contact in stewardship.contacts %}
-    <div class="stewardship-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-5">
-      <div class="stewardship-item-name">{{ contact.name }}</div>
-      <div class="stewardship-item-role">{{ contact.role }}</div>
-      <div class="stewardship-item-endpoint">{{ contact.phone }}</div>
-      <div class="stewardship-item-endpoint">{{ contact.email }}</div>
+<section id="board">
+  <h1>{{ board.title }}</h1>
+  <div id="board-text" class="markdown">{{ board.text | markdownify }}</div>
+  <div class="board-grid pure-g">
+    {% for director in board.directors %}
+    <div class="board-item pure-u-1 pure-u-md-1-3">
+      {% if director.image %}
+      <img class="board-item-image" src="{{ director.image | prepend: site.images_board_path | relative_url }}">
+      {% else %}
+      <i class="fas fa-user"></i>
+      {% endif %}
+      <div class="board-item-name">{{ director.name }}</div>
+      <div class="board-item-role">{{ director.role }}</div>
+      <div class="board-item-endpoint">{{ director.phone }}</div>
+      <div class="board-item-endpoint">{{ director.email }}</div>
     </div>
     {% endfor %}
   </div>

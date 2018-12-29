@@ -2,5 +2,5 @@
 .jekyll-metadata
 .vscode
 Gemfile.lock
-temp
+misc
 _site
