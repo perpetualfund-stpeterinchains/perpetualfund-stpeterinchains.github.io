@@ -203,7 +203,7 @@ div.slideshow-effect { animation-name: slideshow-effect; animation-duration: 1s;
 div.howitworks-box {
   position: relative; box-sizing: border-box;
   margin-bottom: 2.5rem; padding: 2rem 5%;
-  border: 1px solid #ddd; border-radius: 9px;
+  border: 1px solid #ddd; border-radius: 9px; box-shadow: -5px 5px 9px #999;
   background-color: white;
 }
 
@@ -248,24 +248,27 @@ div.howitworks-icon > span { vertical-align: baseline; }
   text-align: center;
 }
 
-div.howtodonate-grid { margin-top: 2rem; }
+div.howtodonate-grid { /* margin-top: 2rem; */ }
 
 div.howtodonate-item { box-sizing: border-box; padding-bottom: 1rem; }
 
-div.howtodonate-icon { font-size: 5rem; text-align: center; color: #9f9; }
+div.howtodonate-icon {
+  font-size: 5rem; text-align: center;
+  text-shadow: 0 0 5px #6c6; color: #9f9;
+}
 
 h1.howtodonate-title {
   margin: 0 0 1rem 0;
   font-size: 1.25rem; font-weight: 400; text-align: center;
 }
 
-div.howtodonate-text { font-weight: 300; color: rgba(255,255,255,0.75); }
+div.howtodonate-text { padding: 0 0.25rem; font-weight: 300; color: rgba(255,255,255,0.75); }
 div.howtodonate-text > h1 { margin: 0.75rem 0 0.25rem; font-weight: 400; font-size: 1rem; color: white; }
 div.howtodonate-text > p { margin: 0 0 0.5rem 0; font-size: 1rem; line-height: 1.5rem; }
 div.howtodonate-text > p:first-child { font-size: 1.15rem; line-height: 1.75rem; }
 
 div.howtodonate-text > blockquote { margin-left: 3rem; }
-div.howtodonate-text > blockquote:first-of-type { margin: 1rem 0; text-align: center; }
+div.howtodonate-text > blockquote:first-of-type { margin: 1.5rem 0; text-align: center; }
 
 div.howtodonate-text > blockquote > p { margin: 0; }
 div.howtodonate-text > blockquote > p > a {
@@ -273,7 +276,7 @@ div.howtodonate-text > blockquote > p > a {
   font-size: 1.1rem; font-weight: 300;
   color: #ff9;
 }
-div.howtodonate-text > blockquote > p > a:hover { color: #cc6; border-color: #cc6; }
+div.howtodonate-text > blockquote > p > a:hover { background-color: #ff9; color: #288; }
 
 div.howtodonate-text a { font-weight: 400; color: #ff9; }
 div.howtodonate-text a:hover { color: #cc6; }
@@ -290,17 +293,6 @@ div.howtodonate-text strong { color: white; }
 
 #howtodonate-legal > p { margin: 0 0 0.5rem 0; line-height: 1.5rem; }
 #howtodonate-legal strong { font-weight: 400; color: white; }
-
-@media screen and (min-width: 48rem) {
-  div.howtodonate-item:nth-child(odd) { padding-right: 1.5%; }
-  div.howtodonate-item:nth-child(even) { padding-left: 1.5%; }
-}
-
-@media screen and (min-width: 64rem) {
-  div.howtodonate-item:nth-child(3n+1) { padding: 0 2% 1rem 0; }
-  div.howtodonate-item:nth-child(3n+2) { padding: 0 1% 1rem 1%; }
-  div.howtodonate-item:nth-child(3n+3) { padding: 0 0 1rem 2%;}
-}
 
 
 /* WHAT ARE THE BENEFITS? */
@@ -325,7 +317,10 @@ div.howtodonate-text strong { color: white; }
 
 div.donorbenefits-item { box-sizing: border-box; padding-bottom: 1rem; }
 
-div.donorbenefits-icon { font-size: 5rem; text-align: center; color: #fcf; }
+div.donorbenefits-icon {
+  font-size: 5rem; text-align: center;
+  text-shadow: 0 0 5px #c9c; color: #fcf;
+}
 
 h1.donorbenefits-title {
   margin: 0 0 1rem 0;

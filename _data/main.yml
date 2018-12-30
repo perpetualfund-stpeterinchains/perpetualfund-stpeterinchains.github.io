@@ -45,7 +45,7 @@ whatis:
 howitworks:
   title: How does it work?
   points:
-    - title: Donations
+    - title: Donation
       icon: 1
       text: |
         As a charitable organization, The&nbsp;Perpetual&nbsp;Fund invites
@@ -55,14 +55,15 @@ howitworks:
         community&apos;s&nbsp;future.
 
         The&nbsp;Fund accepts donations in multiple forms.
-        Most prefer one-time or recurring monetary donations, but donors
-        may also remember The&nbsp;Fund, in life or in their bequests, via
-        life insurance policies, annuities, or gifts of property.
+        Most prefer one-time or recurring monetary donations, but we also
+        accept life insurance policies, annuities, or gifts of property.
+        Donors may also remember The&nbsp;Fund via&nbsp;**bequests**.
 
-        We encourage donations at any time in memoriam for those we knew or
+        We encourage donations at any time **in memoriam** for those we knew or
         loved, whether for someone who died recently or we knew in times past.
-        This is a way to honour not only a treasured friend or loved one,
-        but also the presence of the Cathedral in the lives of so many.
+        Donations made in memoriam honour not only a treasured friend or loved
+        one, but also the presence of the Cathedral in the lives of
+        so&nbsp;many.
 
         All donations are tax-deductible. See below for ways
         to&nbsp;[donate](#howtodonate).
@@ -108,9 +109,25 @@ howitworks:
 
 howtodonate:
   title: How can you donate?
-  methods:
+  monetary:
     -
-      title: Donate Online
+      title: Cash or cheque
+      icon: envelope-open
+      text: |
+        We graciously accept gifts in cash or by cheque, as well as in the form
+        of other recognized monetary instruments. We invite you to use
+        the **envelopes specifically for donations to
+        The&nbsp;Perpetual&nbsp;Fund** located at the entrances inside
+        the&nbsp;Cathedral.
+
+        Donations placed inside these envelopes may be placed on the offertory
+        plate during mass, delivered to the Cathedral&nbsp;Rectory&nbsp;Office,
+        or mailed&nbsp;to the address shown on the&nbsp;envelope.
+
+        Please be sure to provide your contact information on the envelope, so
+        that we can generate a tax receipt for&nbsp;you.
+    -
+      title: Donate online
       icon: hand-holding-usd
       text: |
         For your convenience, we invite you to donate online.
@@ -125,23 +142,7 @@ howtodonate:
         your contact information. We would be honoured to keep you apprised of
         the The&nbsp;Fund&apos;s ongoing activities and&nbsp;projects.
     -
-      title: Cash or cheque
-      icon: envelope-open
-      text: |
-        We graciously accept gifts in cash or by cheque, as well as in the form
-        of other recognized monetary instruments. We invite you to use
-        the **envelopes specifically for donations to
-        The&nbsp;Perpetual&nbsp;Fund** located at the entrances inside
-        the&nbsp;Cathedral.
-
-        Donations placed inside these envelopes may be dropped&nbsp;off at the
-        Cathedral&nbsp;Rectory&nbsp;Office or mailed&nbsp;to the address shown
-        on the&nbsp;envelope.
-
-        Please be sure to provide your contact information on the envelope, so
-        that we can generate a tax receipt for&nbsp;you.
-    -
-      title: Pre-Authorized Giving
+      title: Pre-authorized giving
       icon: search-dollar
       text: |
         Please note that Canada Helps deducts a small fee from all donations
@@ -152,12 +153,13 @@ howtodonate:
         monthly&nbsp;basis.
 
         Simply complete our
-        [Pre-Authorized Giving&nbsp;Plan&nbsp;Form](javascript:void(0)),
-        which can be dropped&nbsp;off at the Cathedral&nbsp;Rectory&nbsp;Office
-        or mailed&nbsp;to the address shown on the form.
+        [Pre-Authorized Giving&nbsp;Plan&nbsp;Form](/forms/perpetualfund-preauthorized.pdf),
+        providing your banking and contact information. The form can be
+        delivered to the Cathedral&nbsp;Rectory&nbsp;Office or mailed&nbsp;to
+        the address shown on the form.
         We will be happy to issue annual tax receipts for all&nbsp;donations.
     -
-      title: Direct Deposits
+      title: Direct deposit
       icon: university
       text: |
         Direct deposits can be made through your bank, both in-person at
@@ -166,16 +168,17 @@ howtodonate:
         become part of The&nbsp;Fund&apos;s&nbsp;endowment.
 
         Please see our
-        [Direct&nbsp;Deposit&nbsp;Form](javascript:void(0)), which provides
-        our banking information so that your bank can help you give once or
-        set&nbsp;up recurring gifts.
-        If you use **online banking**, consider adding The&nbsp;Fund as a payee
-        using the bank account information shown on the form, in order to use
-        this method as a means of&nbsp;giving.
+        [Direct&nbsp;Deposit&nbsp;Form](/forms/perpetualfund-directdeposit.pdf),
+        which provides our banking information so that **your bank** can assist
+        you in giving once or setting&nbsp;up recurring gifts.
+        If you prefer to use **online banking**, add
+        The&nbsp;Perpetual&nbsp;Fund as a payee using the bank account
+        information shown on the&nbsp;form.
 
         For tax receipts, please provide your contact information on the form,
-        which can be dropped&nbsp;off at the Cathedral&nbsp;Rectory&nbsp;Office
-        or mailed&nbsp;to the address shown on the&nbsp;form.
+        which can be delivered to the Cathedral&nbsp;Rectory&nbsp;Office or
+        mailed&nbsp;to the address shown on the&nbsp;form.
+  other:
     -
       title: Fixed-income investments
       icon: chart-line
@@ -231,14 +234,30 @@ howtodonate:
         consideration of these types of gifts.
         We graciously ask that you contact us should you be considering a gift
         of any type of physical&nbsp;property.
+  miscellany:
+    -
+      title: In memoriam
+      icon: bible
+      text: |
+        Many donors choose to give to The&nbsp;Perpetual&nbsp;Fund in
+        remembrance of a beloved friend or family member. Whether someone has
+        recently passed away or remembered from times past, **a donation
+        in&nbsp;memoriam of a cherished friend or loved&nbsp;one is a
+        remembrance that will last in&nbsp;perpetuity**.
+
+        If you are so moved to donate in&nbsp;memoriam, please speak to us
+        directly. We will be honoured to include that person in the
+        Memorial&nbsp;Book and in the special intentions offered during the
+        monthly First&nbsp;Friday morning&nbsp;mass dedicated to donors to
+        The&nbsp;Perpetual&nbsp;Fund and to those remembered in&nbsp;memoriam.
     -
       title: Legal
       icon: gavel
       text: |
         To bequeath a monetary amount, an investment, or property,
-        or where the nature of your donation requires the citation of
-        The&nbsp;Fund in any legal documentation, please be sure to specify
-        The&nbsp;Fund&apos;s **full&nbsp;legal&nbsp;name**&#x3A;
+        or if the nature of your donation requires the citation of
+        The&nbsp;Fund in any form of legal documentation, please be sure to
+        specify The&nbsp;Fund&apos;s **full&nbsp;legal&nbsp;name**&#x3A;
 
         > **THE CATHEDRAL OF ST. PETER-IN-CHAINS PERPETUAL FUND**
 

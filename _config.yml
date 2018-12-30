@@ -5,6 +5,7 @@ styles_path:       /styles/
 scripts_path:      /scripts/
 images_path:       /images/
 images_board_path: /images/board/
+forms_path:        /forms/
 slideshow_delay:   5000
 
 exclude: ["misc"]
