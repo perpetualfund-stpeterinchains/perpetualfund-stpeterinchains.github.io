@@ -368,6 +368,9 @@ board:
     -
       name: Denise LaBarge
       role: Treasurer
+      image: denise-labarge.jpg
+      phone: 705-760-0847
+      email: dpl285@aol.com
     -
       name: Meme McCabe
       role: Secretary
