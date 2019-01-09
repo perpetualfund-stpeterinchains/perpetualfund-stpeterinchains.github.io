@@ -369,8 +369,8 @@ img.board-item-image {
   border-radius: 9px;
 }
 div.board-item > i {
-  width: 110px; height: 110px; font-size: 110px;
-  color: #ddd; text-shadow: 0 0 2px #bbb;
+  width: 150px; height: 150px; font-size: 120px;
+  color: #eee; text-shadow: 0 0 3px #999;
 }
 
 div.board-item-name {
@@ -390,5 +390,5 @@ div.board-item-endpoint {
 
 @media screen and (min-width: 80rem) {
   img.board-item-image { width: 200px; height: 200px; }
-  div.board-item > i { width: 120px; height: 120px; font-size: 120px; }
+  div.board-item > i { width: 200px; height: 200px; font-size: 160px; }
 }
