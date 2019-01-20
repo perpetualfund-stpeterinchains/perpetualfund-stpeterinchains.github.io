@@ -131,14 +131,14 @@ howtodonate:
       icon: hand-holding-usd
       text: |
         For your convenience, we invite you to donate online.
-        The link below takes you to our **Canada&nbsp;Helps** page,
+        The link below takes you to our **CanadaHelps** page,
         for one-time or recurring&nbsp;donations using
         debit&nbsp;or&nbsp;credit.
 
         > [Donate&nbsp;Now](javascript:void(0))
 
-        Canada Helps generates tax receipts for you automatically.
-        When you donate on the Canada Helps page, please consider providing
+        CanadaHelps generates tax receipts for you automatically.
+        When you donate on the CanadaHelps page, please consider providing
         your contact information. We would be honoured to keep you apprised of
         the The&nbsp;Fund&apos;s ongoing activities and&nbsp;projects.
     -
@@ -277,7 +277,7 @@ donorbenefits:
         donation. For recurring donations, we generate an annual
         tax&nbsp;receipt.
 
-        When you donate through [Canada&nbsp;Helps](javascript:void(0)),
+        When you donate through [CanadaHelps](javascript:void(0)),
         you receive a tax receipt directly from them.
         You receive a tax receipt directly from The&nbsp;Perpetual&nbsp;Fund
         for donations made via pre-authorized payments, direct deposit, or
