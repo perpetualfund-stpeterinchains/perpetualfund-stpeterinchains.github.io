@@ -143,13 +143,15 @@ div.slideshow-effect { animation-name: slideshow-effect; animation-duration: 1s;
   text-align: center;
 }
 
-#whatis > p {
+#whatis > div > p {
   margin: 0 0 1rem 0;
-  font-weight: 300;
+  font-weight: 300; font-size: 1.15rem; line-height: 1.75rem;
 }
 
-#whatis > p:first-of-type { font-size: 1.25rem; line-height: 2rem; }
-#whatis > p:last-of-type { font-size: 1.15rem; line-height: 1.75rem; }
+#whatis > div:first-of-type > p { font-size: 1.25rem; line-height: 2rem; }
+
+#whatis > div a { text-decoration: none; color: #288; }
+#whatis > div a:hover { color: #4aa; }
 
 #whatis-links { margin-top: 2rem; text-align: center; line-height: 2rem; }
 

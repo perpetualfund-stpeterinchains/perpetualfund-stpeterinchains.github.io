@@ -39,8 +39,8 @@ open_graph_description: >
 
 <section id="whatis">
   <h1>{{ whatis.title }}</h1>
-  <p>{{ whatis.primary }}</p>
-  <p>{{ whatis.secondary }}</p>
+  <div>{{ whatis.primary | markdownify }}</div>
+  <div>{{ whatis.secondary | markdownify }}</div>
   <div id="whatis-links">
     {% for link in whatis.links %}
     <span><a target="_blank" href="{{ link.url }}">{{ link.text }}</a></span>
