@@ -37,7 +37,18 @@ whatis:
     The earnings and interest then become the money used to support
     the&nbsp;mission.
   links:
+    - text: How it works
+      url: "#howitworks"
+    - text: How to donate
+      url: "#howtodonate"
+    - text: Donor benefits
+      url: "#donorbenefits"
+    - text: About us
+      url: "#board"
+    - text: Contact us
+      url: mailto:cathedralperpetualfund@gmail.com
     - text: Donate Now
+      external: true
       url: https://www.canadahelps.org/en/charities/cathedral-perpetual-fund/
 
 howitworks:

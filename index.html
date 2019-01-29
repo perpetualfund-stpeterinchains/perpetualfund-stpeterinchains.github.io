@@ -43,7 +43,7 @@ open_graph_description: >
   <div>{{ whatis.secondary | markdownify }}</div>
   <div id="whatis-links">
     {% for link in whatis.links %}
-    <span><a target="_blank" href="{{ link.url }}">{{ link.text }}</a></span>
+    <span><a{% if link.external %} target="_blank"{% endif %} href="{{ link.url }}">{{ link.text }}</a></span>
     {% endfor %}
   </div>
 </section>
