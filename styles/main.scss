@@ -342,53 +342,67 @@ div.donorbenefits-text strong { color: white; }
 }
 
 
-/* BOARD OF DIRECTORS */
+/* ABOUT US */
 
-#board { padding: 6rem 10%; }
+#aboutus { padding: 6rem 10% 0 10%; }
 
-#board > h1 {
+#aboutus > h1 {
   margin: 0 0 2rem 0;
   font-size: 3rem; font-weight: 300; letter-spacing: -0.1rem;
   text-align: center;
 }
 
-#board-text { font-weight: 300; }
-#board-text > p {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.15rem; line-height: 1.75rem;
+#aboutus-text { font-weight: 300; }
+#aboutus-text > p { margin: 0 0 0.5rem 0; font-size: 1.15rem; line-height: 1.75rem; }
+#aboutus-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
+#aboutus-text > p > a { font-weight: 400; text-decoration: none; color: #288; }
+#aboutus-text > p > a:hover { color: #4aa; }
+
+#contacts {
+  margin: 3rem 0; padding: 0 10%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 10px #bbb;
+  background-color: #ddd;
 }
 
-#board-text > p:first-child { font-size: 1.25rem; line-height: 2rem; }
+#contacts-grid { padding: 2rem 0 1rem 0; }
 
-#board-text > p > a { font-weight: 400; text-decoration: none; color: #288; }
-#board-text > p > a:hover { color: #4aa; }
+div.contacts-item {
+  box-sizing: border-box; margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2.contacts-heading { margin: 0 0 0.75rem 0; font-size: 1.1rem; font-weight: 400; }
+div.contacts-address { font-weight: 300; }
+div.contacts-address > p { margin: 0; font-size: 0.9rem; }
+div.contacts-address > p:first-child { margin-bottom: 0.5rem; }
+div.contacts-address > p > a { font-weight: 400; font-size: 1rem; text-decoration: none; color: #288; }
+div.contacts-address > p > a:hover { color: #4aa; }
+
+#board { padding: 0 10% 6rem 10%; }
 
 div.board-item {
   box-sizing: border-box; margin-top: 2rem;
   text-align: center;
 }
-img.board-item-image {
+
+img.board-image {
   display: block; margin: 0 auto;
   width: 150px; height: 150px;
   box-shadow: -5px 5px 10px #666;
   border-radius: 9px;
 }
+
 div.board-item > i {
   width: 150px; height: 150px; font-size: 120px;
   color: #eee; text-shadow: 0 0 3px #999;
 }
 
-div.board-item-name {
-  margin-top: 0.75rem;
-  font-weight: 400; font-size: 1.15rem;
-}
-
-div.board-item-role {
-  margin: 0 0 0.25rem 0;
-  font-weight: 300; font-size: 1rem; font-style: italic;
-}
+div.board-name { margin-top: 0.75rem; font-weight: 400; font-size: 1.15rem; }
+div.board-role { margin: 0 0 0.25rem 0; font-weight: 300; font-size: 1rem; font-style: italic; }
 
 @media screen and (min-width: 80rem) {
-  img.board-item-image { width: 200px; height: 200px; }
+  img.board-image { width: 200px; height: 200px; }
   div.board-item > i { width: 200px; height: 200px; font-size: 160px; }
 }

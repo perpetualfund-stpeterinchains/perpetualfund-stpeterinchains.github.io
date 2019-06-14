@@ -44,9 +44,7 @@ whatis:
     - text: Donor benefits
       url: "#donorbenefits"
     - text: About us
-      url: "#board"
-    - text: Contact us
-      url: mailto:cathedralperpetualfund@gmail.com
+      url: "#aboutus"
     - text: Donate Now
       external: true
       url: https://www.canadahelps.org/en/charities/cathedral-perpetual-fund/
@@ -130,11 +128,9 @@ howtodonate:
         envelopes** available inside the&nbsp;Cathedral, which are specifically
         for donations to The&nbsp;Fund. Envelopes may be
         placed on the offertory plate during Holy&nbsp;Mass,
-        delivered in&#x2011;person to the Cathedral&nbsp;Rectory&nbsp;Office,
+        delivered in-person to the Cathedral&nbsp;Rectory&nbsp;Office,
         or mailed directly to The&nbsp;Perpetual&nbsp;Fund.
-        Please see the top of the
-        [Pre-Authorized Giving&nbsp;Plan&nbsp;form](/forms/perpetualfund-preauthorized.pdf)
-        for in&#x2011;person and mailing&nbsp;addresses.
+        Please see [About us](#aboutus) for our address&nbsp;information.
 
         We ask that you kindly include your mailing address and phone number
         with your donation inside the envelope so that we can generate a
@@ -167,8 +163,8 @@ howtodonate:
         Please be sure to provide your banking and contact&nbsp;information.
 
         The form can be mailed&nbsp;to the address shown on the form or
-        delivered in&#x2011;person to the Cathedral&nbsp;Rectory&nbsp;Office.
-        Alternatively, if you prefer to use e&#x2011;mail, please scan your
+        delivered in-person to the Cathedral&nbsp;Rectory&nbsp;Office.
+        Alternatively, if you prefer to use email, please scan your
         completed form and send as&nbsp;an&nbsp;attachment to
         [cathedralperpetualfund@gmail.com](mailto:cathedralperpetualfund@gmail.com).
 
@@ -328,41 +324,60 @@ donorbenefits:
         generosity, by both its celebrants and parishioners,
         now and well into the&nbsp;future.
 
-board:
+aboutus:
   title: You are important to us
   text: |
     The Board&nbsp;of&nbsp;Directors of The&nbsp;Perpetual&nbsp;Fund
     sincerely hope you will consider the mission to preserve
     the&nbsp;beautiful **Cathedral&nbsp;of St&nbsp;Peter-in-Chains**.
-    The&nbsp;Fund exists so that future generations will be able to worship God
-    in the surroundings of this historic&nbsp;Cathedral.
+    The&nbsp;Perpetual&nbsp;Fund exists so that future generations will be able
+    to worship God in the surroundings of this historic&nbsp;Cathedral.
     **Just&nbsp;as&nbsp;we&nbsp;have&nbsp;done.**
 
-    **The&nbsp;Fund cannot exist without you.**
+    **The&nbsp;Perpetual&nbsp;Fund cannot exist without you.**
     With ever-increasing costs and maintenance requirements,
     donations are needed more&nbsp;than&nbsp;ever.
     To learn more about its mission and its accomplishments,
     or for information on making arrangements for a bequest
     or in making a donation of any kind, please do not hesitate to
-    [contact&nbsp;us](mailto:cathedralperpetualfund@gmail.com).
-    We would be honoured to assist&nbsp;you. **God&nbsp;bless.**
+    contact&nbsp;us. We would be honoured
+    to assist&nbsp;you. **God&nbsp;bless.**
+  contacts:
+    - heading: Email
+      address: >
+        [cathedralperpetualfund@gmail.com](mailto:cathedralperpetualfund@gmail.com)
+    - heading: Mailing address
+      address: |
+        The Cathedral of St&nbsp;Peter-in-Chains<br>Perpetual&nbsp;Fund
+
+        317 Hunter St W
+
+        PO Box 252
+
+        Peterborough, ON
+
+        K9J 6Y8
+    - heading: Physical address
+      address: |
+        The Cathedral of St&nbsp;Peter-in-Chains<br>Rectory&nbsp;Office
+
+        411 Reid St
+
+        Peterborough, ON
+
+        K9H 4G7
   directors:
-    -
-      name: Ranald Pearson
+    - name: Ranald Pearson
       role: President
       image: ranald-pearson.jpg
-    -
-      name: Mark Sokolski
+    - name: Mark Sokolski
       role: Vice President
       image: mark-sokolski.jpg
-    -
-      name: Fr Tom Lynch
+    - name: Fr Tom Lynch
       role: Cathedral Rector
       image: fr-tom-lynch.jpg
-    -
-      name: Denise LaBarge
+    - name: Denise LaBarge
       role: Treasurer
       image: denise-labarge.jpg
-    -
-      name: Meme McCabe
+    - name: Meme McCabe
       role: Secretary

@@ -115,23 +115,35 @@ open_graph_description: >
   </div>
 </section>
 
-<!-- BOARD OF DIRECTORS -->
+<!-- ABOUT US -->
 
-{% assign board = source.board %}
+{% assign aboutus = source.aboutus %}
 
+<section id="aboutus">
+  <h1>{{ aboutus.title }}</h1>
+  <div id="aboutus-text" class="markdown">{{ aboutus.text | markdownify }}</div>
+</section>
+<section id="contacts">
+  <div id="contacts-grid" class="pure-g">
+    {% for contact in aboutus.contacts %}
+    <div class="contacts-item pure-u-1 pure-u-md-1-3">
+      <h2 class="contacts-heading">{{ contact.heading }}</h2>
+      <div class="contacts-address markdown">{{ contact.address | markdownify }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 <section id="board">
-  <h1>{{ board.title }}</h1>
-  <div id="board-text" class="markdown">{{ board.text | markdownify }}</div>
-  <div class="board-grid pure-g">
-    {% for director in board.directors %}
+  <div id="board-grid" class="pure-g">
+    {% for director in aboutus.directors %}
     <div class="board-item pure-u-1 pure-u-md-1-3">
       {% if director.image %}
-      <img class="board-item-image" src="{{ director.image | prepend: site.images_board_path | relative_url }}">
+      <img class="board-image" src="{{ director.image | prepend: site.images_board_path | relative_url }}">
       {% else %}
       <i class="fas fa-user"></i>
       {% endif %}
-      <div class="board-item-name">{{ director.name }}</div>
-      <div class="board-item-role">{{ director.role }}</div>
+      <div class="board-name">{{ director.name }}</div>
+      <div class="board-role">{{ director.role }}</div>
     </div>
     {% endfor %}
   </div>
