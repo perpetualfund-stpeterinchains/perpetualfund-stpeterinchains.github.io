@@ -118,80 +118,62 @@ howitworks:
 
 howtodonate:
   title: How can you donate?
-  monetary:
+  primary:
     -
       title: Cash or cheque
       icon: envelope-open
       text: |
         We graciously accept gifts in cash or by cheque, as well as in the form
-        of other recognized monetary instruments. We invite you to
-        use **The&nbsp;Perpetual&nbsp;Fund donation envelopes**, available
-        inside the&nbsp;Cathedral, specifically for donations to The&nbsp;Fund.
+        of other recognized monetary&nbsp;instruments.
 
-        Donation envelopes may be placed on the offertory plate during
-        Holy&nbsp;Mass, mailed&nbsp;to The&nbsp;Perpetual&nbsp;Fund, or
-        delivered in&#x2011;person to the Cathedral Rectory&nbsp;Office.
+        We invite you to use **The&nbsp;Perpetual&nbsp;Fund donation
+        envelopes** available inside the&nbsp;Cathedral, which are specifically
+        for donations to The&nbsp;Fund. Envelopes may be
+        placed on the offertory plate during Holy&nbsp;Mass,
+        delivered in&#x2011;person to the Cathedral&nbsp;Rectory&nbsp;Office,
+        or mailed directly to The&nbsp;Perpetual&nbsp;Fund.
         Please see the top of the
-        [Direct&nbsp;Deposit&nbsp;form](/forms/perpetualfund-directdeposit.pdf)
-        for address information.
+        [Pre-Authorized Giving&nbsp;Plan&nbsp;form](/forms/perpetualfund-preauthorized.pdf)
+        for in&#x2011;person and mailing&nbsp;addresses.
 
-        Please include your mailing address and phone number inside
-        the envelope, so that we can generate a tax receipt for&nbsp;you.
+        We ask that you kindly include your mailing address and phone number
+        with your donation inside the envelope so that we can generate a
+        tax receipt for&nbsp;you.
     -
       title: Donate online
       icon: hand-holding-usd
       text: |
-        For your convenience, we invite you to donate online.
-        The link below takes you to our **CanadaHelps** page,
-        for one-time or recurring&nbsp;donations using
-        debit&nbsp;or&nbsp;credit.
+        If you prefer to donate online, using your mobile&nbsp;device or
+        computer, we invite you to use our **CanadaHelps** page.
+        You can make a one-time donation, or setup recurring&nbsp;donations.
 
         > [Donate&nbsp;Now](https://www.canadahelps.org/en/charities/cathedral-perpetual-fund/){:target="_blank"}
 
-        When you donate on CanadaHelps, please consider providing
+        When you donate using CanadaHelps, please consider providing
         your contact information. We would be honoured to keep you informed of
         the The&nbsp;Fund&apos;s ongoing activities and&nbsp;projects.
 
-        CanadaHelps generates tax receipts for you automatically.
+        CanadaHelps generates tax receipts for you&nbsp;automatically.
     -
       title: Pre-authorized giving
       icon: search-dollar
       text: |
         Please consider a recurring **pre-authorized giving&nbsp;plan** through
-        your bank, which allows you to donate a fixed amount on a
+        your bank, which allows you to donate an amount of your choice on a
         monthly&nbsp;basis.
 
         Simply complete our
         [Pre-Authorized Giving&nbsp;Plan&nbsp;form](/forms/perpetualfund-preauthorized.pdf).
-        Please be sure to provide your banking and contact information.
+        Please be sure to provide your banking and contact&nbsp;information.
 
         The form can be mailed&nbsp;to the address shown on the form or
-        delivered in&#x2011;person to the Cathedral Rectory&nbsp;Office.
+        delivered in&#x2011;person to the Cathedral&nbsp;Rectory&nbsp;Office.
         Alternatively, if you prefer to use e&#x2011;mail, please scan your
-        completed form and [send](mailto:cathedralperpetualfund@gmail.com)
-        as&nbsp;an&nbsp;attachment.
+        completed form and send as&nbsp;an&nbsp;attachment to
+        [cathedralperpetualfund@gmail.com](mailto:cathedralperpetualfund@gmail.com).
 
-        We issue annual tax receipts for all&nbsp;donations.
-    -
-      title: Direct deposit
-      icon: university
-      text: |
-        Direct deposits can be made through your bank, at your **branch** or by
-        using **online banking**, for one-time or recurring donations.
-
-        Please see our
-        [Direct&nbsp;Deposit&nbsp;form](/forms/perpetualfund-directdeposit.pdf),
-        which provides our banking information so that **your bank** can assist
-        you in giving once or setting&nbsp;up recurring gifts.
-        If you prefer to use **online banking**, add
-        The&nbsp;Perpetual&nbsp;Fund as a payee using the bank account
-        information shown on the&nbsp;form.
-
-        For tax receipts, please provide your contact information on the
-        Direct&nbsp;Deposit&nbsp;form, which can be
-        mailed&nbsp;to the address shown on the&nbsp;form or
-        delivered in&#x2011;person to the Cathedral Rectory&nbsp;Office.
-  other:
+        The&nbsp;Fund issues tax receipts for pre-authorized&nbsp;donations.
+  secondary:
     -
       title: Fixed-income investments
       icon: chart-line
@@ -359,8 +341,7 @@ board:
     **The&nbsp;Fund cannot exist without you.**
     With ever-increasing costs and maintenance requirements,
     donations are needed more&nbsp;than&nbsp;ever.
-
-    To learn more about its purpose and accomplishments,
+    To learn more about its mission and its accomplishments,
     or for information on making arrangements for a bequest
     or in making a donation of any kind, please do not hesitate to
     [contact&nbsp;us](mailto:cathedralperpetualfund@gmail.com).
