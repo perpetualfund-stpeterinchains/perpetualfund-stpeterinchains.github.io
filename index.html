@@ -136,7 +136,7 @@ open_graph_description: >
 <section id="board">
   <div id="board-grid" class="pure-g">
     {% for director in aboutus.directors %}
-    <div class="board-item pure-u-1 pure-u-md-1-3">
+    <div class="board-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
       {% if director.image %}
       <img class="board-image" src="{{ director.image | prepend: site.images_board_path | relative_url }}">
       {% else %}
