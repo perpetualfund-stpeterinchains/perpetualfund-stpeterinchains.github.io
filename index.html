@@ -126,7 +126,7 @@ open_graph_description: >
 <section id="contacts">
   <div id="contacts-grid" class="pure-g">
     {% for contact in aboutus.contacts %}
-    <div class="contacts-item pure-u-1 pure-u-md-1-3">
+    <div class="contacts-item pure-u-1 pure-u-lg-1-3">
       <h2 class="contacts-heading">{{ contact.heading }}</h2>
       <div class="contacts-address markdown">{{ contact.address | markdownify }}</div>
     </div>
@@ -134,14 +134,24 @@ open_graph_description: >
   </div>
 </section>
 <section id="board">
-  <div id="board-grid" class="pure-g">
-    {% for director in aboutus.directors %}
-    <div class="board-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
+  <h1>{{ aboutus.directors.title1 }}</h1>
+  <h2>{{ aboutus.directors.title2 }}</h2>
+  <div id="board-grid-primary" class="pure-g">
+    {% for director in aboutus.directors.primary %}
+    <div class="board-item pure-u-1 pure-u-sm-1-2 pure-u-md-1-3">
       {% if director.image %}
       <img class="board-image" src="{{ director.image | prepend: site.images_board_path | relative_url }}">
       {% else %}
       <i class="fas fa-user"></i>
       {% endif %}
+      <div class="board-name">{{ director.name }}</div>
+      <div class="board-role">{{ director.role }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div id="board-grid-secondary" class="pure-g">
+    {% for director in aboutus.directors.secondary %}
+    <div class="board-item pure-u-1 pure-u-sm-1-3 pure-u-md-1-5">
       <div class="board-name">{{ director.name }}</div>
       <div class="board-role">{{ director.role }}</div>
     </div>

@@ -382,9 +382,25 @@ div.contacts-address > p > a:hover { color: #4aa; }
 
 #board { padding: 0 10% 6rem 10%; }
 
+#board > h1 {
+  margin: 0;
+  font-size: 1.5rem; font-weight: 300; letter-spacing: -0.05rem;
+  text-align: center;
+}
+
+#board > h2 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem; font-weight: 400; letter-spacing: -0.1rem;
+  text-align: center;
+}
+
 div.board-item {
   box-sizing: border-box; margin-top: 2rem;
   text-align: center;
+}
+
+div.board-list-item {
+  margin-top: 0.5rem; text-align: center;
 }
 
 img.board-image {
