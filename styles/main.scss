@@ -360,10 +360,8 @@ div.donorbenefits-text strong { color: white; }
 
 #contacts {
   margin: 3rem 0; padding: 0 10%;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 0 0 10px #bbb;
-  background-color: #ddd;
+  box-shadow: 0 0 10px #039;
+  background-color: #06c; color: white;
 }
 
 #contacts-grid { padding: 2rem 0 1rem 0; }
@@ -377,8 +375,8 @@ h2.contacts-heading { margin: 0 0 0.75rem 0; font-size: 1rem; font-weight: 400; 
 div.contacts-address { font-weight: 300; }
 div.contacts-address > p { margin: 0; font-size: 0.9rem; }
 div.contacts-address > p:first-child { margin-bottom: 0.5rem; }
-div.contacts-address > p > a { font-weight: 400; font-size: 1rem; text-decoration: none; color: #288; }
-div.contacts-address > p > a:hover { color: #4aa; }
+div.contacts-address > p > a { font-weight: 400; font-size: 1rem; text-decoration: none; color: #ff9; }
+div.contacts-address > p > a:hover { color: #cc6; }
 
 #board { padding: 0 10% 6rem 10%; }
 
@@ -393,6 +391,8 @@ div.contacts-address > p > a:hover { color: #4aa; }
   font-size: 2rem; font-weight: 400; letter-spacing: -0.1rem;
   text-align: center;
 }
+
+#board-grid-secondary { padding: 2rem 10% 0 10%; }
 
 div.board-item {
   box-sizing: border-box; margin-top: 2rem;

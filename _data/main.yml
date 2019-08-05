@@ -389,6 +389,9 @@ aboutus:
     - name: Mark Sokolski
       role: Vice President
       image: mark-sokolski.jpg
+    - name: Tony Bustos
+      role: Governance
+      image: tony-bustos.jpg
     - name: Fr Tom Lynch
       role: Cathedral Rector
       image: fr-tom-lynch.jpg
@@ -400,6 +403,4 @@ aboutus:
     - name: Linda Bolton
       role: Treasurer
     - name: John Mealin
-      role: Governance
-    - name: Tony Bustos
       role: Governance
