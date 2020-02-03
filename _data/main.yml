@@ -45,6 +45,8 @@ whatis:
       url: "#donorbenefits"
     - text: About us
       url: "#aboutus"
+    - text: Contact info
+      url: "#contact"
     - text: Donate Now
       external: true
       url: https://www.canadahelps.org/en/charities/cathedral-perpetual-fund/
@@ -115,23 +117,22 @@ howitworks:
         for not only its own parishioners, but the surrounding&nbsp;community.
 
 howtodonate:
-  title: How can you donate?
+  title: How to donate
   primary:
     -
       title: Cash or cheque
       icon: envelope-open
       text: |
-        We graciously accept gifts in cash or by cheque, as well as in the form
-        of other recognized monetary&nbsp;instruments.
-
-        We invite you to use **The&nbsp;Perpetual&nbsp;Fund donation
+        We graciously accept gifts in cash or by cheque.
+        Please use **The&nbsp;Perpetual&nbsp;Fund donation
         envelopes** available on the Perpetual&nbsp;Fund&nbsp;Kiosk located
-        inside the&nbsp;Cathedral, which are specifically
+        inside the&nbsp;Cathedral.
+
+        These envelopes are specifically
         for donations to The&nbsp;Fund. Envelopes may be
-        placed on the collection plate during Holy&nbsp;Mass,
-        mailed directly to The&nbsp;Perpetual&nbsp;Fund, or
-        delivered in-person to the Cathedral&nbsp;Rectory&nbsp;Office.
-        Please see [About&nbsp;us](#aboutus) for our address&nbsp;information.
+        placed on the collection plate during Holy&nbsp;Mass or
+        mailed directly to The&nbsp;Perpetual&nbsp;Fund.
+        Please see [Contact&nbsp;info](#contact) for address information.
 
         We ask that you kindly include your mailing address and phone number
         with your donation inside the envelope so that we can generate a
@@ -140,10 +141,9 @@ howtodonate:
       title: Donate online
       icon: hand-holding-usd
       text: |
-        If you prefer to donate online, using your mobile&nbsp;device or
-        computer, we invite you to use our **CanadaHelps** page.
-        You can make a one-time donation, or setup recurring donations.
-        Debit or crdit&nbsp;accepted.
+        If you prefer to donate online, we invite you to use our
+        **CanadaHelps** page. You can make a one-time donation or setup
+        recurring donations. Debit or credit&nbsp;accepted.
 
         > [Donate&nbsp;Now](https://www.canadahelps.org/en/charities/cathedral-perpetual-fund/){:target="_blank"}
 
@@ -153,24 +153,39 @@ howtodonate:
 
         CanadaHelps generates tax receipts for you&nbsp;automatically.
     -
+      title: Email money transfer
+      icon: donate
+      text: |
+        You can donate using Interac email money transfers through your online
+        banking&nbsp;portal.
+
+        When performing the transfer, please specify our email address
+        [cathedralperpetualfund@gmail.com](cathedralperpetualfund@gmail.com)
+        as the recipient in the transfer. In addition, specify **perpetual** as
+        the&nbsp;secret.
+
+        We ask that you provide your contact information as a comment or note
+        when setting up the transfer. If this field is not present or
+        does not provide sufficient space, please kindly send email to the
+        above address with your contact information and a note referencing
+        your&nbsp;donation.
+    -
       title: Pre-authorized giving
       icon: search-dollar
       text: |
-        Please consider a recurring **pre-authorized giving&nbsp;plan** through
-        your bank, which allows you to donate an amount of your choice on a
+        Please consider a recurring pre-authorized giving&nbsp;plan through
+        your bank to donate an amount of your choice on a
         monthly&nbsp;basis.
 
-        Simply complete our downloadable
+        Download and complete our
         [Pre-Authorized Giving&nbsp;Plan&nbsp;form](/forms/perpetualfund-preauthorized.pdf).
         The form is also available on the Perpetual&nbsp;Fund&nbsp;Kiosk
-        located inside the Cathedral or at the
-        Cathedral&nbsp;Rectory&nbsp;Office.
-        Please be sure to provide your banking and contact information.
+        located inside the Cathedral.
+        Please be sure to provide your banking and contact&nbsp;information.
 
-        The form can be mailed&nbsp;to the address shown on the form or
-        delivered in-person to the Cathedral&nbsp;Rectory&nbsp;Office.
-        Alternatively, if you prefer to use email, please scan your
-        completed form and send as&nbsp;an&nbsp;attachment to
+        The form can be sent to our mailing address shown on the form.
+        If&nbsp;you prefer email, please scan your completed form and send
+        as&nbsp;an&nbsp;attachment to
         [cathedralperpetualfund@gmail.com](mailto:cathedralperpetualfund@gmail.com).
 
         The&nbsp;Fund issues tax receipts for pre-authorized&nbsp;donations.
@@ -183,15 +198,15 @@ howtodonate:
         stock dividends, and bonds, offer two options which can benefit
         our&nbsp;mission.
 
-        The **interest earned may be assigned** to the benefit of the
+        The interest earned may be assigned to the benefit of the
         The&nbsp;Perpetual&nbsp;Fund as recurring monetary gifts.
         For those having the financial freedom to offer the cash flow on these
         investments, this can be an excellent way to contribute to the steady
         growth of The&nbsp;Fund&apos;s&nbsp;endowment.
 
         Secondly, while living or as a remembrance in a bequest or
-        for a loved one in memoriam, **title to a fixed-income investment
-        may be transferred** to the The&nbsp;Perpetual&nbsp;Fund.
+        for a loved one in memoriam, title to a fixed-income investment
+        may be transferred to the The&nbsp;Perpetual&nbsp;Fund.
         Such generosity significantly adds to the value of the endowment and
         therefore the interest generated in&nbsp;perpetuity for the benefit of
         the&nbsp;Cathedral.
@@ -204,8 +219,8 @@ howtodonate:
       text: |
         Life insurance policies offer donors the option to gift The&nbsp;Fund
         in substantial ways. Donors having sufficient financial freedom and
-        alternative coverage may choose to **name the
-        The&nbsp;Perpetual&nbsp;Fund as a beneficiary** on
+        alternative coverage may choose to name the
+        The&nbsp;Perpetual&nbsp;Fund as a beneficiary on
         life&nbsp;insurance&nbsp;policies.
 
         We stress such gifts as appropriate only for those with the freedom to
@@ -217,12 +232,12 @@ howtodonate:
       title: Physical property
       icon: home
       text: |
-        In addition to monetary amounts and liquid assets, The&nbsp;Fund
-        accepts **donations of physical properties, such as real&nbsp;estate or
-        other hard&nbsp;assets**, including precious metals, jewelry, vehicles,
-        or any marketable&nbsp;asset.
-        Such gifts to The Fund can help grow the endowment substantively,
-        for which your name, or the name of someone beloved in memoriam,
+        In addition to monetary amounts and liquid assets, The&nbsp;Fund also
+        accepts donations of physical property, such as real&nbsp;estate.
+        We also accept other hard&nbsp;assets, including precious metals,
+        jewelry, or&nbsp;vehicles.
+        Such gifts can help grow the endowment substantively,
+        for which your name, or the name of another in memoriam,
         will be written into a special section in our Memorial&nbsp;Book.
 
         We stress the importance of the donor&apos;s fulfilment of all other
@@ -238,8 +253,8 @@ howtodonate:
         Many donors choose to give to The&nbsp;Perpetual&nbsp;Fund in
         remembrance of a beloved friend or family member. Whether for someone
         who has recently passed away or for someone remembered from times
-        past, **a donation in&nbsp;memoriam of a cherished friend or
-        loved&nbsp;one is a remembrance that will last in&nbsp;perpetuity**.
+        past, a donation in&nbsp;memoriam of a cherished friend or
+        loved&nbsp;one is a remembrance that will last in&nbsp;perpetuity.
 
         If you are so moved to donate in&nbsp;memoriam, please
         include information concerning the person's name with your donation or
@@ -254,10 +269,10 @@ howtodonate:
       text: |
         To bequeath a monetary amount, an investment, or property,
         or if the nature of your donation requires the citation of
-        The&nbsp;Fund in any form of legal documentation, please be sure to
-        specify The&nbsp;Fund&apos;s **full&nbsp;legal&nbsp;name**&#x3A;
+        The&nbsp;Perpetual&nbsp;Fund in any form of legal documentation,
+        please be sure to specify the full&nbsp;legal&nbsp;name&#x3A;
 
-        > **THE CATHEDRAL OF ST. PETER-IN-CHAINS PERPETUAL FUND**
+        > **THE CATHEDRAL OF ST. PETER-IN-CHAINS PERPETUAL&nbsp;FUND**
 
 
 donorbenefits:
@@ -355,30 +370,6 @@ aboutus:
     this worthy&nbsp;endeavor.
 
     **God&nbsp;bless.**
-  contacts:
-    - heading: Email
-      address: >
-        [cathedralperpetualfund@gmail.com](mailto:cathedralperpetualfund@gmail.com)
-    - heading: Mailing address
-      address: |
-        The Cathedral of St&nbsp;Peter-in-Chains<br>Perpetual&nbsp;Fund
-
-        317 Hunter St W
-
-        PO Box 252
-
-        Peterborough, ON
-
-        K9J 6Y8
-    - heading: Donation&nbsp;envelope drop-off<br>Pre-Authorized&nbsp;Giving&nbsp;Plan&nbsp;form pick-up
-      address: |
-        The Cathedral of St&nbsp;Peter-in-Chains<br>Rectory&nbsp;Office
-
-        411 Reid St
-
-        Peterborough, ON
-
-        K9H 4G7
   directors:
     title1: The Perpetual Fund
     title2: Board of Directors
@@ -404,3 +395,17 @@ aboutus:
       role: Treasurer
     - name: John Mealin
       role: Governance
+  contact:
+    title: Contact info
+    icon: mail-bulk
+    items:
+      - type: Email address
+        value: cathedralperpetualfund@gmail.com
+        link: true
+      - type: Mailing address
+        value: >
+          The Cathedral of St&nbsp;Peter-in-Chains Perpetual&nbsp;Fund<br>
+          317 Hunter St W<br>
+          PO Box 252<br>
+          Peterborough, ON<br>
+          K9J 6Y8

@@ -237,7 +237,7 @@ div.howitworks-icon > span { vertical-align: baseline; }
 }
 
 
-/* HOW CAN YOU DONATE? */
+/* HOW TO DONATE */
 
 #howtodonate {
   padding: 5rem 10%; margin-top: 6rem;
@@ -358,27 +358,7 @@ div.donorbenefits-text strong { color: white; }
 #aboutus-text > p > a { font-weight: 400; text-decoration: none; color: #288; }
 #aboutus-text > p > a:hover { color: #4aa; }
 
-#contacts {
-  margin: 3rem 0; padding: 0 10%;
-  box-shadow: 0 0 10px #039;
-  background-color: #06c; color: white;
-}
-
-#contacts-grid { padding: 2rem 0 1rem 0; }
-
-div.contacts-item {
-  box-sizing: border-box; margin-bottom: 1rem;
-  text-align: center;
-}
-
-h2.contacts-heading { margin: 0 0 0.75rem 0; font-size: 1rem; font-weight: 400; }
-div.contacts-address { font-weight: 300; }
-div.contacts-address > p { margin: 0; font-size: 0.9rem; }
-div.contacts-address > p:first-child { margin-bottom: 0.5rem; }
-div.contacts-address > p > a { font-weight: 400; font-size: 1rem; text-decoration: none; color: #ff9; }
-div.contacts-address > p > a:hover { color: #cc6; }
-
-#board { padding: 0 10% 6rem 10%; }
+#board { margin-top: 3rem; padding: 0 10% 6rem 10%; }
 
 #board > h1 {
   margin: 0;
@@ -422,3 +402,39 @@ div.board-role { margin: 0 0 0.25rem 0; font-weight: 300; font-size: 1rem; font-
   img.board-image { width: 200px; height: 200px; }
   div.board-item > i { width: 200px; height: 200px; font-size: 160px; }
 }
+
+#contact {
+  padding: 0 10% 6rem 10%;
+  text-align: center;
+}
+
+#contact-list {
+  position: relative;
+  margin: 0; padding: 2rem 5%;
+  border: 1px solid #ddd; border-radius: 9px; box-shadow: -5px 5px 9px #999;
+  background-color: white;
+}
+
+#contact-icon {
+  position: absolute; top: -1rem; left: -1rem;
+  width: 4rem; height: 4rem; line-height: 4rem;
+  border-radius: 50%; box-shadow: -1px 1px 5px #999;
+  background-color: #288; color: white;
+  font-size: 1.75rem; font-weight: 300; text-align: center;
+}
+
+#contact-icon > span { vertical-align: baseline; }
+
+#contact-title {
+  margin: 0;
+  font-size: 1.75rem; font-weight: 400;
+}
+
+dt.contact-type {
+  margin-top: 2rem;
+  font-size: 1.25rem; font-weight: 400; letter-spacing: -0.05rem;
+}
+
+dd.contact-value { margin: 0.5rem 0 0 0; font-size: 1.15rem; font-weight: 300; }
+dd.contact-value > a { text-decoration: none; color: #288; }
+dd.contact-value > a:hover { color: #033; }
