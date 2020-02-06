@@ -156,18 +156,16 @@ howtodonate:
       title: Email money transfer
       icon: donate
       text: |
-        You can donate using Interac email money transfers through your online
-        banking&nbsp;portal.
+        We graciously accept donations by Interac email money transfer.
 
-        When performing the transfer, please specify our email address
+        Please specify our email address
         [cathedralperpetualfund@gmail.com](cathedralperpetualfund@gmail.com)
-        as the recipient in the transfer. In addition, specify **perpetual** as
-        the&nbsp;secret.
+        as the recipient in the transfer and **perpetual** as the&nbsp;secret.
 
         We ask that you provide your contact information as a comment or note
-        when setting up the transfer. If this field is not present or
+        in the transfer. If this field is not present or
         does not provide sufficient space, please kindly send email to the
-        above address with your contact information and a note referencing
+        above address with your contact information, referencing
         your&nbsp;donation.
     -
       title: Pre-authorized giving
@@ -175,7 +173,7 @@ howtodonate:
       text: |
         Please consider a recurring pre-authorized giving&nbsp;plan through
         your bank to donate an amount of your choice on a
-        monthly&nbsp;basis.
+        weekly, monthly, quarterly, or annual&nbsp;basis.
 
         Download and complete our
         [Pre-Authorized Giving&nbsp;Plan&nbsp;form](/forms/perpetualfund-preauthorized.pdf).
@@ -183,7 +181,7 @@ howtodonate:
         located inside the Cathedral.
         Please be sure to provide your banking and contact&nbsp;information.
 
-        The form can be sent to our mailing address shown on the form.
+        The form can be sent to our mailing address, shown on the form.
         If&nbsp;you prefer email, please scan your completed form and send
         as&nbsp;an&nbsp;attachment to
         [cathedralperpetualfund@gmail.com](mailto:cathedralperpetualfund@gmail.com).
@@ -386,8 +384,6 @@ aboutus:
       role: Cathedral Rector
       image: fr-tom-lynch.jpg
     secondary:
-    - name: Merina Csercsics
-      role: Administrator
     - name: Meme McCabe
       role: Secretary
     - name: Linda Bolton
