@@ -388,6 +388,8 @@ aboutus:
       role: Secretary
     - name: Linda Bolton
       role: Treasurer
+    - name: Rod MacIsaac
+      role: Director
   contact:
     title: Contact info
     icon: mail-bulk
