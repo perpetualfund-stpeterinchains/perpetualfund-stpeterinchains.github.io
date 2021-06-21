@@ -374,9 +374,6 @@ aboutus:
     - name: Ranald Pearson
       role: President
       image: ranald-pearson.jpg
-    - name: Mark Sokolski
-      role: Vice President
-      image: mark-sokolski.jpg
     - name: Tony Bustos
       role: Governance
       image: tony-bustos.jpg
@@ -386,8 +383,6 @@ aboutus:
     secondary:
     - name: Meme McCabe
       role: Secretary
-    - name: Linda Bolton
-      role: Treasurer
     - name: Rod MacIsaac
       role: Director
   contact:
