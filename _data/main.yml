@@ -383,7 +383,13 @@ aboutus:
     secondary:
     - name: Meme McCabe
       role: Secretary
+    - name: Wayne Cornack
+      role: Treasurer
     - name: Rod MacIsaac
+      role: Director
+    - name: Ed Panganiban
+      role: Director
+    - name: Maureen Siegel
       role: Director
   contact:
     title: Contact info
