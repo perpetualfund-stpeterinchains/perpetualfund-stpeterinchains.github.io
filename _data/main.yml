@@ -374,17 +374,16 @@ aboutus:
     - name: Ranald Pearson
       role: President
       image: ranald-pearson.jpg
-    - name: Tony Bustos
-      role: Governance
-      image: tony-bustos.jpg
     - name: Fr Tom Lynch
       role: Cathedral Rector
       image: fr-tom-lynch.jpg
     secondary:
     - name: Meme McCabe
-      role: Secretary
+      role: Vice President
     - name: Wayne Cornack
       role: Treasurer
+    - name: Diane D&apos;Alessandro
+      role: Secretary
     - name: Rod MacIsaac
       role: Director
     - name: Ed Panganiban
